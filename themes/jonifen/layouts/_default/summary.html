@@ -1,0 +1,12 @@
+<div class="post-summary shadow">
+  {{ .Render "summary-header" }}
+  <p>
+    {{ if .IsPage }}
+      {{ if .Description }}
+        {{ .Description }}
+      {{ else }}
+        {{ .Summary }}
+      {{ end }}
+    {{ end }}
+  </p>
+</div>

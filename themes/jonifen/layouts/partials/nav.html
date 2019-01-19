@@ -1,0 +1,19 @@
+<div class="nav">
+	{{ range .Site.Data.Menu }}
+	<a href="{{ .URL | absURL }}"
+		class="nav-item"
+		{{ if and ( isset . "Title" ) ( ne .Title "" ) }}
+			alt="{{ .Title }}"
+			title="{{ .Title }}"
+		{{ end }}>
+		<div class="item-icon">
+			<img
+				{{ if and ( isset . "Image" ) ( ne .Image "" ) }}
+					src="{{ .Image }}"
+				{{ end }}
+				/>
+		</div>
+		<div class="item-text">{{ .Name }}</div>
+	</a>
+	{{ end }}
+</div>

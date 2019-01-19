@@ -1,0 +1,17 @@
+[0]
+	Name = "Home"
+	Title = "Home"
+	URL = "/"
+	Image = "/images/home.png"
+
+[blog]
+	Name = "Blog"
+	Title = "Blog"
+	URL = "/blog"
+	Image = "/images/text.png"
+
+[tags]
+	Name = "Tags"
+	Title = "Tags"
+	URL = "/tags"
+	Image = "/images/tags.png"

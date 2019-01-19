@@ -1,0 +1,17 @@
+[github]
+	Name = "Github"
+	Title = "Github"
+	URL = "https://github.com/jonifen"
+	Image = "/images/github.png"
+
+[linkedin]
+	Name = "LinkedIn"
+	Title = "LinkedIn"
+	URL = "https://www.linkedin.com/in/jonifen"
+	Image = "/images/linkedin.png"
+
+[twitter]
+	Name = "Twitter"
+	Title = "Twitter"
+	URL = "https://twitter.com/jonifen"
+	Image = "/images/twitter.png"

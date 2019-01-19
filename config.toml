@@ -1,0 +1,11 @@
+baseUrl = "/"
+languageCode = "en-gb"
+title = "Jon Cain"
+copyright = "(c) 2017 Jon Cain"
+theme = "jonifen"
+
+[taxonomies]
+	tag = "tags"
+
+[params]
+	footline = "[jonifen.co.uk](https://jonifen.co.uk) - Created using [Hugo](http://gohugo.io)"

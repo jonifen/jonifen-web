@@ -1,0 +1,16 @@
+{{ range .Site.Data.Social }}
+<a href="{{ .URL | absURL }}"
+  class="nav-item"
+  {{ if and ( isset . "Title" ) ( ne .Title "" ) }}
+    alt="{{ .Title }}"
+    title="{{ .Title }}"
+  {{ end }}>
+  <div class="item-icon">
+    <img
+      {{ if and ( isset . "Image" ) ( ne .Image "" ) }}
+        src="{{ .Image }}"
+      {{ end }}
+      />
+  </div>
+</a>
+{{ end }}
