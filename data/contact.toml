@@ -1,0 +1,15 @@
+[github]
+	Name = "Github"
+	URL = "https://github.com/jonifen"
+
+[linkedin]
+	Name = "LinkedIn"
+	URL = "https://www.linkedin.com/in/jonifen"
+
+[twitter]
+	Name = "Twitter"
+	URL = "https://twitter.com/jonifen"
+
+[email]
+	Name = "e-mail"
+	URL = "mailto:hello@dev.jonifen.co.uk"

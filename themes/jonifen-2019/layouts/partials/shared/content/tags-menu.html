@@ -1,0 +1,10 @@
+<ul>
+	{{ $baseurl := .Site.BaseURL }}
+	{{ range $key,$value := .Site.Taxonomies.tags.Alphabetical }}
+		<a href="{{ $baseurl }}tags/{{ $value.Name | urlize }}">
+			<li>
+				{{ $value.Name }}
+			</li>
+		</a>
+	{{ end }}
+</ul>

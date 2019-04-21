@@ -1,0 +1,12 @@
+<div class="container">
+  {{ if isset .Site.Params.showBlogHeader true }}
+  <header>
+    <h1>{{ if .IsPage }}{{ if .Draft }}DRAFT :: {{ end }}{{ end }}{{ .Title }}</h1>
+  </header>
+  {{ end }}
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+  {{ range $paginator.Pages }}
+  {{ .Render "summary" }}
+  {{ end }}
+  {{ partial "widgets/pager" . }}
+</div>

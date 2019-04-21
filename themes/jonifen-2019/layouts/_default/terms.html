@@ -1,0 +1,13 @@
+{{ partial "header" . }}
+
+<div class="content tags">
+  {{ $baseurl := .Site.BaseURL }} {{ $data := .Data }} {{ range $key,$value := .Data.Terms.Alphabetical }}
+  <a href="{{ $baseurl }}{{ $data.Plural }}/{{ $value.Name | urlize }}" title="{{ $value.Name }}" alt="{{ $value.Name }}" class="tag-item-link">
+    <div class="tag-item">
+      {{ $value.Name }} ({{ $value.Count }})
+    </div>
+  </a>
+  {{ end }}
+</div>
+
+{{ partial "footer" . }}

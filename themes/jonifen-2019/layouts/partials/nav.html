@@ -1,0 +1,10 @@
+<div class="nav">
+	{{ range .Site.Data.Menu }}
+	<a href="{{ .URL | absURL }}"
+		class="nav-item"
+		{{ if and ( isset . "Title" ) ( ne .Title "" ) }}
+			alt="{{ .Title }}"
+			title="{{ .Title }}"
+		{{ end }}>{{ .Name }}</a>
+	{{ end }}
+</div>

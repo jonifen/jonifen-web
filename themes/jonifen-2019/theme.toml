@@ -1,0 +1,21 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/spf13/hugoThemes#themetoml for an example
+
+name = "Jonifen 2019"
+license = "MIT"
+licenselink = ""
+description = ""
+homepage = ""
+tags = ["blog"]
+features = [""]
+min_version = 0.18
+
+[author]
+  name = "Jon Cain"
+  homepage = "https://jonifen.co.uk"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""

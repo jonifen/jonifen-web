@@ -4,14 +4,20 @@
 	URL = "/"
 	Image = "/images/home.png"
 
-[blog]
+[1]
 	Name = "Blog"
 	Title = "Blog"
 	URL = "/blog"
 	Image = "/images/text.png"
 
-[tags]
+[2]
 	Name = "Tags"
 	Title = "Tags"
 	URL = "/tags"
 	Image = "/images/tags.png"
+
+[3]
+	Name = "Contact"
+	Title = "Contact"
+	URL = "/contact"
+	Image = "/images/twitter.png"
