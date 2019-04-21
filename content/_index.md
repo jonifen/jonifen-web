@@ -8,11 +8,11 @@ title = "Jon Cain (jonifen.co.uk)"
 
 I'm a Software Developer using C#, JavaScript (including React and Redux). As penance for a past life, I have a lot of experience of VB6 too :)
 
-Outside of work, I'm a Dad of 4. I'm married to <a href="http://dicain.co.uk">Di</a>.
+Outside of work, I'm a Dad of 4. I'm married to [Di](http://dicain.co.uk).
 
 I have an interest in cars (although mine has given me a few grey hairs), but as much as I'd love to, I'm scared to tinker with them too much in case things go wrong!
 
-I'm also pretty mad on bicycles... and I'm quite happy tinkering with a bike to get it working great. I do commute to work by bike, but when it's cold and wet, it's just too difficult to pass the car on the drive!
+I'm also pretty mad on bicycles... and I'm quite happy tinkering with a bike to get it working great. I used to commute to work by bike, but since changing jobs last year, I've been on the bus which (dare I say it?) has been mostly alright, so I'm yet to get on the bike for the commute.
 
 
 I try to help out on StackOverflow when I get some free time which difficult for C# questions, as nobody's quicker at responding than Jon Skeet ;)
