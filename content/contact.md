@@ -5,4 +5,14 @@ title = "Jon Cain (jonifen.co.uk)"
 type = "sitecontent"
 +++
 
-Contact
+## Contact me
+
+You can get in touch through one of the following methods:
+
+Twitter: https://twitter.com/jonifen
+
+LinkedIn: https://www.linkedin.com/in/jonifen
+
+Github: https://github.com/jonifen
+
+e-mail: [hello@dev.jonifen.co.uk](mailto:hello@dev.jonifen.co.uk)
