@@ -150,4 +150,4 @@ and now let's render it (I've included the whole `render()` function from `home.
 
 So now we've used state to hold data retrieved from an API, and we've used it to hold data which is manipulated during the lifetime of the component.
 
-As always, questions/comments are welcomed on Twitter (@jonifen).
+As always, questions/comments are welcomed on [Twitter](https://twitter.com/jonifen) or [one of my other contact options](/contact).

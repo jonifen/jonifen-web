@@ -63,4 +63,4 @@ What are your thoughts on MVP? In particular, code quality in the first instance
 
 What are your thoughts on Technical Debt?
 
-Give me a shout on Twitter @jonifen - I'd be interested to hear other developers' theories/opinions on the matter.
+Get in touch [through one of the contact options](/contact) - I'd be interested to hear other developers' theories/opinions on the matter.
