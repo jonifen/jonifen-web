@@ -15,4 +15,4 @@ LinkedIn: https://www.linkedin.com/in/jonifen
 
 Github: https://github.com/jonifen
 
-e-mail: [hello@dev.jonifen.co.uk](mailto:hello@dev.jonifen.co.uk)
+e-mail: [hello@jonifen.co.uk](mailto:hello@jonifen.co.uk?subject=jonifen.co.uk)
