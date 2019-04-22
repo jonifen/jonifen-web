@@ -3,7 +3,7 @@
   --bluecolour: #3857f1;
   --pagebgcolor: #cfd5e2;
   --bgcolor: #fff;
-  --header: #2c3856;
+  --bluegrey: #2c3856;
 }
 
 body {
@@ -20,7 +20,7 @@ header {
   line-height: 3rem;
   border-bottom: 0.2rem var(--highlight) solid;
   position: relative;
-  background-color: var(--header);
+  background-color: var(--bluegrey);
   color: #fff;
 }
 
@@ -48,7 +48,7 @@ h2 {
   margin: 0;
 }
 
-a { text-decoration: none; color: #3766b5; }
+a { text-decoration: none; color: var(--bluegrey); }
 a:hover { text-decoration: underline; color: #3766b5; }
 a:active { text-decoration: underline; color: #3766b5; }
 
@@ -122,7 +122,7 @@ a.nav-item:hover {
 .tag {
   border: #214074 1px solid;
   background-color: var(--bgcolor);
-  color: var(--header);
+  color: var(--bluegrey);
   border-radius: 3px;
   font-size: 12px;
   padding: 2px;
@@ -130,7 +130,7 @@ a.nav-item:hover {
   text-align: center;
   min-width: 20px;
 }
-.tag:hover { background-color: var(--header); color: var(--bgcolor); text-decoration: none; transition: 0.5s; }
+.tag:hover { background-color: var(--bluegrey); color: var(--bgcolor); text-decoration: none; transition: 0.5s; }
 
 .page-item {
   display: inline-block;
