@@ -1,16 +1,17 @@
 {{ partial "header" . }}
 
 <div class="content">
-  <h1>{{ if .IsPage }}{{ if .Draft }}DRAFT :: {{ end }}{{ end }}{{ .Title }}</h1>
+  <h2>{{ .Title }}</h2>
   <ul>
     {{ range .Pages }}
     <li>
       <a href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }} DRAFT :: {{ end }}{{ end }}{{ .Title }}</a>
-      ({{ partial "shared/page/date" . }})
+      <small>
+        - {{ .Date.Format "2 Jan, 2006" }} ~{{ .ReadingTime }} minutes ({{ .WordCount }} words)
+      </small>
     </li>
     {{ end }}
   </ul>
-  {{ partial "widgets/pager" . }}
 </div>
 
 {{ partial "footer" . }}

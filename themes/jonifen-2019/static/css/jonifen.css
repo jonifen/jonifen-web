@@ -140,6 +140,7 @@ a.nav-item:hover {
 }
 
 .pagination {
+  margin-top: 0.5rem;
   padding: 0;
   text-align: center;
 }
