@@ -9,10 +9,13 @@ type = "sitecontent"
 
 You can get in touch through one of the following methods:
 
-Twitter: https://twitter.com/jonifen
+**Twitter:** https://twitter.com/jonifen
 
-LinkedIn: https://www.linkedin.com/in/jonifen
+**LinkedIn:** https://www.linkedin.com/in/jonifen
 
-Github: https://github.com/jonifen
+**Github:** https://github.com/jonifen
 
-e-mail: [hello@jonifen.co.uk](mailto:hello@jonifen.co.uk?subject=jonifen.co.uk)
+**e-mail:** [hello@jonifen.co.uk](mailto:hello@jonifen.co.uk?subject=jonifen.co.uk)
+<br /><small>Note: this email is used for website communications only, so I cannot be found on other sites using this address</small>
+
+**PSN:** jonifenc

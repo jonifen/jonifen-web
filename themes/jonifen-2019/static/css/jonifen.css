@@ -48,8 +48,8 @@ h2 {
   margin: 0;
 }
 
-a { text-decoration: none; color: var(--bluegrey); }
-a:hover { text-decoration: underline; color: #3766b5; }
+a { text-decoration: none; color: #0041b1; }
+a:hover { text-decoration: underline; color: #546fb1; }
 a:active { text-decoration: underline; color: #3766b5; }
 
 header .heading {
