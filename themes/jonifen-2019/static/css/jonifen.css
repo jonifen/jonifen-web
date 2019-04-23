@@ -55,6 +55,7 @@ a:active { text-decoration: underline; color: #3766b5; }
 header .heading {
   display: inline-block;
   font-size: 1.5rem;
+  padding: 0 0 0 0.5rem;
 }
 
 header .heading a {
