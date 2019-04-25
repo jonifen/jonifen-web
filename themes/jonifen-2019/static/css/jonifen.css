@@ -71,6 +71,14 @@ header .container .nav {
   right: 0;
 }
 
+table {
+  border-collapse: collapse;
+}
+th,td {
+  padding: 0.5rem;
+  border: 1px var(--highlight) solid;
+}
+
 .nav {
   display: inline-block;
   font-size: 1rem;
