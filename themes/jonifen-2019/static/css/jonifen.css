@@ -118,6 +118,9 @@ a.nav-item:hover {
 .container .content {
   padding: 1rem;
 }
+.container .content p {
+  line-height: 1.4rem;
+}
 
 
 .tag {
