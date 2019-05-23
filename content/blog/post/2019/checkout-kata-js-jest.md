@@ -16,7 +16,7 @@ I've always been of the opinion that Code Katas are useful for pushing you to th
 
 Because we've made a shift to using Jest as our preferred JavaScript testing mechanism at work, I thought it would be worthwhile me revisiting some old Katas so I could get a bit of extra practice in, but also so I could write a blog post about it, as I've been a bit slow updating things as of late (I'm hoping to write a further post giving some insight into why I've been so quiet, but I digress...)
 
-For the sake of this post though, I'll look at the well-known Checkout Kata. You may have come across this before, possibly at a job interview. I first saw the Checkout problem on Dave Thomas' ([Code Kata](http://codekata.com/kata/kata09-back-to-the-checkout/)) website, so it may not be a Dave Thomas original.
+For the sake of this post though, I'll look at the well-known Checkout Kata. You may have come across this before, possibly at a job interview. I first saw the Checkout problem on Dave Thomas' ([Code Kata](http://codekata.com/kata/kata09-back-to-the-checkout/)) website, but it may not be a Dave Thomas original.
 
 The details of the Kata are on the link above, but for the sake of completeness, I'll recap here. We have 4 products, which we will call `A`, `B`, `C` and `D` and they are priced as follows:
 
