@@ -6,6 +6,7 @@
   --pagebgcolour: #fafafa;
   --bgcolour: #fff;
   --bluegrey: #2c3856;
+  --blackish: #222222;
 }
 
 body {
@@ -122,9 +123,6 @@ a.nav-item:hover {
   margin-right: auto;
   width: 70rem;
 }
-.container.page-content {
-  background-color: var(--bgcolour);
-}
 .container .content {
   padding: 1rem;
 }
@@ -166,6 +164,15 @@ a.nav-item:hover {
   width: 2rem;
 }
 
+.post-header {
+  background-color: var(--blackish);
+  color: var(--pagebgcolour);
+  border-bottom-right-radius: 1rem;
+}
+.post-header .content {
+  padding: 1rem;
+}
+
 .post-summary {
   background-color: #fff;
   padding: 1rem;
@@ -173,6 +180,20 @@ a.nav-item:hover {
 }
 .post-summary .meta {
   text-align: right;
+}
+
+.post-header .post-details {
+  padding: 0.5rem 0 0 0;
+}
+.post-header .post-meta-details {
+  padding: 0.5rem 0 0 0;
+}
+.post-header .date {
+  display: inline-block;
+  text-align: left;
+}
+.post-header .tags {
+  float: right;
 }
 
 .tag.disabled {

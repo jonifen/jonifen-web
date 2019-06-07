@@ -1,0 +1,18 @@
+<div class="post-header">
+  <div class="container">
+    <div class="content">
+      <h2>{{ .Title }}</h2>
+      <div class="post-details">
+        {{ partial "shared/page/post-data" . }}
+      </div>
+      <div class="post-meta-details">
+        <div class="date">
+          {{ partial "shared/page/date" . }}
+        </div>
+        <div class="tags">
+          {{ partial "widgets/tags" . }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

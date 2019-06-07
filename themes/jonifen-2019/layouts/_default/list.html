@@ -1,17 +1,19 @@
 {{ partial "header" . }}
 
-<div class="content">
-  <h2>{{ .Title }}</h2>
-  <ul>
-    {{ range .Pages }}
-    <li>
-      <a href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }} DRAFT :: {{ end }}{{ end }}{{ .Title }}</a>
-      <small>
-        - {{ .Date.Format "2 Jan, 2006" }} ~{{ .ReadingTime }} minutes ({{ .WordCount }} words)
-      </small>
-    </li>
-    {{ end }}
-  </ul>
+<div class="container">
+  <div class="content">
+    <h2>{{ .Title }}</h2>
+    <ul>
+      {{ range .Pages }}
+      <li>
+        <a href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }} DRAFT :: {{ end }}{{ end }}{{ .Title }}</a>
+        <small>
+          - {{ .Date.Format "2 Jan, 2006" }} ~{{ .ReadingTime }} minutes ({{ .WordCount }} words)
+        </small>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
 </div>
 
 {{ partial "footer" . }}

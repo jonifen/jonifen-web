@@ -1,7 +1,9 @@
 {{ partial "header" . }}
-<div class="content">
-  {{ .Render "single-header" }}
-  {{ .Render "single-content" }}
-  {{ .Render "single-footer" }}
+{{ .Render "single-header" }}
+<div class="container">
+  <div class="content">
+    {{ .Render "single-content" }}
+    {{ .Render "single-footer" }}
+  </div>
 </div>
 {{ partial "footer" . }}

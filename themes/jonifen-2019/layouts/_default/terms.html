@@ -1,14 +1,22 @@
 {{ partial "header" . }}
 
-<div class="content tags">
-  <h2>Tags</h2>
-  {{ $baseurl := .Site.BaseURL }} {{ $data := .Data }} {{ range $key,$value := .Data.Terms.Alphabetical }}
-  <a href="{{ $baseurl }}{{ $data.Plural }}/{{ $value.Name | urlize }}" title="{{ $value.Name }}" alt="{{ $value.Name }}" class="tag-item-link">
-    <div class="tag-item">
-      {{ $value.Name }} ({{ $value.Count }})
+<div class="post-header">
+  <div class="container">
+    <div class="content">
+      <h2>Tags</h2>
     </div>
-  </a>
-  {{ end }}
+  </div>
+</div>
+<div class="container">
+  <div class="content tags">
+    {{ $baseurl := .Site.BaseURL }} {{ $data := .Data }} {{ range $key,$value := .Data.Terms.Alphabetical }}
+    <a href="{{ $baseurl }}{{ $data.Plural }}/{{ $value.Name | urlize }}" title="{{ $value.Name }}" alt="{{ $value.Name }}" class="tag-item-link">
+      <div class="tag-item">
+        {{ $value.Name }} ({{ $value.Count }})
+      </div>
+    </a>
+    {{ end }}
+  </div>
 </div>
 
 {{ partial "footer" . }}

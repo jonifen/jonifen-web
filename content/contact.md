@@ -1,11 +1,9 @@
 +++
 author = "Jon"
 date = "2019-04-21T15:18:01Z"
-title = "Contact Jon Cain | jonifen.co.uk"
+title = "Contact me"
 type = "sitecontent"
 +++
-
-## Contact me
 
 You can get in touch through one of the following methods:
 
