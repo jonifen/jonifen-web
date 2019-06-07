@@ -1,9 +1,0 @@
-<div class="post-header">
-  <div class="post-heading">
-    <h2><a href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }}DRAFT :: {{ end }}{{ end }}{{ .Title }}</a></h2>
-    {{ partial "widgets/tags" . }}
-  </div>
-  <div class="post-meta">
-    {{ partial "widgets/date-logo" . }}
-  </div>
-</div>
