@@ -1,9 +1,11 @@
       <footer>
-        <small>
-          {{ with .Site.Params.footline }}
-            {{ . | markdownify }}
-          {{ end }}
-        </small>
+        <div class="container">
+          <small>
+            {{ with .Site.Params.footline }}
+              {{ . | markdownify }}
+            {{ end }}
+          </small>
+        </div>
       </footer>
     </div>
   </body>

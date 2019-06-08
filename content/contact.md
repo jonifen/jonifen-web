@@ -13,7 +13,7 @@ You can get in touch through one of the following methods:
 
 **Github:** https://github.com/jonifen
 
-**e-mail:** [hello@jonifen.co.uk](mailto:hello@jonifen.co.uk?subject=jonifen.co.uk)
+**e-mail:** hello [at] jonifen.co.uk
 <br /><small>Note: this email is used for website communications only, so I cannot be found on other sites using this address</small>
 
 **PSN:** jonifenc
