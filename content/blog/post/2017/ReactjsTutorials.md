@@ -1,16 +1,16 @@
-+++
-type = "post"
-title = "React.js Tutorials"
-author = "Jon"
-description = "I've created a few pages on here which are now growing into a bit of a tutorial, so thought I'd collate the links into one post (and append links to any new related posts in the future) so it's easier to follow."
-tags = [
+---
+type: "post"
+title: "React.js Tutorials"
+author: "Jon"
+description: "I've created a few pages on here which are now growing into a bit of a tutorial, so thought I'd collate the links into one post (and append links to any new related posts in the future) so it's easier to follow."
+tags: [
   "programming",
   "javascript",
 	"reactjs"
 ]
-date = "2017-02-20T22:50:08Z"
+date: "2017-02-20T22:50:08Z"
 
-+++
+---
 
 I've created a few pages on here which are now growing into a bit of a tutorial, so thought I'd collate the links into one post (and append links to any new related posts in the future) so it's easier to follow.
 

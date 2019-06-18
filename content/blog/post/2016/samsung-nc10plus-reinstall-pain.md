@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2016-03-12T18:43:12Z"
-description = "Reinstalling a computer is usually simple. So why have Samsung made it difficult?"
-tags = ["techsupport", "hardware", "family"]
-title = "Reinstalling a Samsung NC10+ Netbook = Painful"
-type = "post"
+---
+author: "Jon"
+date: "2016-03-12T18:43:12Z"
+description: "Reinstalling a computer is usually simple. So why have Samsung made it difficult?"
+tags: ["techsupport", "hardware", "family"]
+title: "Reinstalling a Samsung NC10+ Netbook = Painful"
+type: "post"
 
-+++
+---
 I've had to do a restore on a Samsung NC10+ which is an Atom N450 based netbook from a few years back. But for some reason, the recovery stuff just won't work and I've had to do a clean install of Windows. And the Samsung support website... well, it's not much support at all. In fact, I don't think they even remember releasing the NC10+. Only the original NC10.
 
 Luckily, Windows 7 installs drivers for most things, but missing the two important ones... Video and Wireless. So after a long hunt, I've found the needed drivers to be:

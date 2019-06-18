@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2014-06-16T21:42:00Z"
-description = "OK, so I'm not alone here. I finally decided on an XPS 15 and ordered it 10 days ago now."
-tags = ["hardware"]
-title = "Dell's Informative Delivery Service"
-type = "post"
+---
+author: "Jon"
+date: "2014-06-16T21:42:00Z"
+description: "OK, so I'm not alone here. I finally decided on an XPS 15 and ordered it 10 days ago now."
+tags: ["hardware"]
+title: "Dell's Informative Delivery Service"
+type: "post"
 
-+++
+---
 
 OK, so I'm not alone here. I finally decided on an XPS 15 and ordered it 10 days ago now. After a couple of days, the Dell website showed the order as shipped and I could track it through their agent Walsh Western (a.k.a. Syncreon). I'm now sat here on the evening before my expected ETA date and it still hasn't reached the UK. The last update is the common "DEPARTED MANU.FACILITY" which appears to be in China. Apparently this is normal in most cases and it might still turn up tomorrow, but how much should I believe it?
 

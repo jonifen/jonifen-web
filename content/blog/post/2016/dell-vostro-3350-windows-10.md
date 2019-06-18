@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2016-06-16T22:32:00+01:00"
-description = "Dell say they haven't carried out Windows 10 testing on their Vostro 3350 laptop, so owners are to continue at their own risk..."
-tags = ["techsupport", "windows"]
-title = "Dell Vostro 3350 Laptop with Windows 10"
-type = "post"
+---
+author: "Jon"
+date: "2016-06-16T22:32:00+01:00"
+description: "Dell say they haven't carried out Windows 10 testing on their Vostro 3350 laptop, so owners are to continue at their own risk..."
+tags: ["techsupport", "windows"]
+title: "Dell Vostro 3350 Laptop with Windows 10"
+type: "post"
 
-+++
+---
 
 So this week I've bought an ex-corporate Dell Vostro 3350 with the intention of it replacing Di's aged Pentium D desktop which is struggling since the Windows 10 upgrade.
 The laptop came pre-installed with Windows 10 Professional (a digital entitlement upgrade from the Windows 7 Pro that came on the laptop), and seemed quick enough. However, I'm not one to use a laptop as it comes, especially when it's not brand new. Plus I noticed some of the devices weren't installed correctly, so I took the opportunity to reinstall on the mechanical disk to ensure I have the right drivers before reinstalling onto the SSD that'll come out of the desktop.

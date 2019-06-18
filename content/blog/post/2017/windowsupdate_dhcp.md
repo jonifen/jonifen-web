@@ -1,16 +1,16 @@
-+++
-type = "post"
-description = "I have had a fair few people lately telling me that their Windows computers are struggling to connect to the Internet..."
-date = "2017-01-30T20:13:29Z"
-title = "Windows 8/10 computer not connecting to your network?"
-author = "Jon"
-tags = [
+---
+type: "post"
+description: "I have had a fair few people lately telling me that their Windows computers are struggling to connect to the Internet..."
+date: "2017-01-30T20:13:29Z"
+title: "Windows 8/10 computer not connecting to your network?"
+author: "Jon"
+tags: [
 	"techsupport",
 	"windowsupdate",
 	"windows"
 ]
 
-+++
+---
 
 I have had a fair few people lately telling me that their Windows computers are struggling to connect to the Internet. After doing some digging into the problem, it turns out that it could be related to a failed Windows Update that Microsoft initially issued in December 2016, but some computers are slow in picking up the update (or the owners are similar to me, and don't reboot very often to let updates take effect!)
 

@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2015-12-03T20:58:18Z"
-description = "It seems whenever I need to make a phone call on the landline, it's broken..."
-tags = ["techsupport", "connectivity", "broadband", "adsl"]
-title = "No dial tone, but broadband still works?"
-type = "post"
+---
+author: "Jon"
+date: "2015-12-03T20:58:18Z"
+description: "It seems whenever I need to make a phone call on the landline, it's broken..."
+tags: ["techsupport", "connectivity", "broadband", "adsl"]
+title: "No dial tone, but broadband still works?"
+type: "post"
 
-+++
+---
 
 It seems whenever I need to make a phone call on the landline, it's broken. Yesterday I picked up the landline handset and it was dead. No dial tone. Nothing. Nada. Zip.
 

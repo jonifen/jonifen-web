@@ -1,15 +1,15 @@
-+++
-date = "2017-02-26T20:57:26Z"
-type = "post"
-title = "PrimeFilm 1800u Film Scanner"
-author = "Jon"
-description = "As part of the downsizing task my Mum has taken on, we've got a lot of photos and slides to transfer to a digital format that can be viewed on an iPad (or digital photo frame)..."
-tags = [
+---
+date: "2017-02-26T20:57:26Z"
+type: "post"
+title: "PrimeFilm 1800u Film Scanner"
+author: "Jon"
+description: "As part of the downsizing task my Mum has taken on, we've got a lot of photos and slides to transfer to a digital format that can be viewed on an iPad (or digital photo frame)..."
+tags: [
   "techsupport",
   "hardware"
 ]
 
-+++
+---
 
 As part of the downsizing task my Mum has taken on, we've got a lot of photos and slides to transfer to a digital format that can be viewed on an iPad (or digital photo frame). The photos is an easy task (albeit fairly monotonous as my scanner doesn't have a document feeder), but the slides might be trickier.
 

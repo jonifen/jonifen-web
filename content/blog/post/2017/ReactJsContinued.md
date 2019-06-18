@@ -1,16 +1,16 @@
-+++
-type = "post"
-title = "React.js Continued... Components!"
-author = "Jon"
-description = "It's time to continue on from my React.js Revisited post that I made a few days ago. This time we'll look at creating some components..."
-tags = [
+---
+type: "post"
+title: "React.js Continued... Components!"
+author: "Jon"
+description: "It's time to continue on from my React.js Revisited post that I made a few days ago. This time we'll look at creating some components..."
+tags: [
   "programming",
   "javascript",
 	"reactjs"
 ]
-date = "2017-02-13T22:36:58Z"
+date: "2017-02-13T22:36:58Z"
 
-+++
+---
 
 It's time to continue on from my [React.js Revisited](/blog/post/2017/reactjsrevisited) post that I made a few days ago. This time we'll look at creating some components...
 

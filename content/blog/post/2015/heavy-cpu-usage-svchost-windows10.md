@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2015-10-31T20:31:00Z"
-description = "Google brings up a complete bag of results when you search for \"svchost high cpu\" as it's been a well documented issue with the Windows Update service across the last couple of Windows versions (way back to XP as it happens!)"
-tags = ["techsupport", "windows10", "windowsupdate", "svchost"]
-title = "heavy cpu usage svchost windows10"
-type = "post"
+---
+author: "Jon"
+date: "2015-10-31T20:31:00Z"
+description: "Google brings up a complete bag of results when you search for \"svchost high cpu\" as it's been a well documented issue with the Windows Update service across the last couple of Windows versions (way back to XP as it happens!)"
+tags: ["techsupport", "windows10", "windowsupdate", "svchost"]
+title: "heavy cpu usage svchost windows10"
+type: "post"
 
-+++
+---
 
 Google brings up a complete bag of results when you search for "svchost high cpu" as it's been a well documented issue with the Windows Update service across the last couple of Windows versions (way back to XP as it happens!) so it was little surprise to find that the instance of svchost.exe that was eating CPU cycles was the one that was hosting the Windows Update service.
 

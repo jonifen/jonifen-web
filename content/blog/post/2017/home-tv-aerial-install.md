@@ -1,15 +1,15 @@
-+++
-date = "2017-07-15T23:36:41+01:00"
-title = "Home TV Aerial Install"
-type = "post"
-author = "Jon"
-description = "I'm not a big DIY-er, but I do have a go from time to time. After having some home improvements work done on our house which included removing the chimney throughout the house, we're in need of a TV aerial."
-tags = [
+---
+date: "2017-07-15T23:36:41+01:00"
+title: "Home TV Aerial Install"
+type: "post"
+author: "Jon"
+description: "I'm not a big DIY-er, but I do have a go from time to time. After having some home improvements work done on our house which included removing the chimney throughout the house, we're in need of a TV aerial."
+tags: [
   "home",
   "tv",
 	"diy"
 ]
-+++
+---
 
 I'm not a big DIY-er, but I do have a go from time to time. After having some home improvements work done on our house which included removing the chimney throughout the house, we're in need of a TV aerial. We have Sky as our main TV supply on the main TV, but in the bedrooms, we relied on the aerial, so I needed to find a solution fairly soon.
 

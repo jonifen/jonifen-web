@@ -1,17 +1,17 @@
-+++
-draft = true
-type = "post"
-title = "What exactly is \"MVP\"?"
-author = "Jon"
-description = "I've been giving the topic of MVP some thought for a while now, and toyed with writing a post about it but never actually got around to it... until now."
-tags = [
+---
+draft: true
+type: "post"
+title: "What exactly is \"MVP\"?"
+author: "Jon"
+description: "I've been giving the topic of MVP some thought for a while now, and toyed with writing a post about it but never actually got around to it... until now."
+tags: [
   "programming",
   "agile",
   "scrum"
 ]
-date = "2017-02-24T19:44:28Z"
+date: "2017-02-24T19:44:28Z"
 
-+++
+---
 
 I've been giving the topic of MVP some thought for a while now, and toyed with writing a post about it but never actually got around to it... until now.
 

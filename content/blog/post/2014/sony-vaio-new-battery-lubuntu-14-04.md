@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2014-05-22T21:34:00Z"
-description = "The genuine battery died a few months back on the \"bricktop\" (a Sony Vaio C2M/W), and with the hard drive starting to click, I just dumped it on the side and gave up with it. After trying to persist with an Atom N450 netbook (Visual Studio usage is soul-destroying on an Atom CPU!), I've dug it back out and ordered a new battery from Amazon and the Intel 40Gb SSD that was on offer at Ebuyer for 20 quid."
-tags = ["techsupport"]
-title = "Sony Vaio C2M/W, Lubuntu 14.04 and a new battery"
-type = "post"
+---
+author: "Jon"
+date: "2014-05-22T21:34:00Z"
+description: "The genuine battery died a few months back on the \"bricktop\" (a Sony Vaio C2M/W), and with the hard drive starting to click, I just dumped it on the side and gave up with it. After trying to persist with an Atom N450 netbook (Visual Studio usage is soul-destroying on an Atom CPU!), I've dug it back out and ordered a new battery from Amazon and the Intel 40Gb SSD that was on offer at Ebuyer for 20 quid."
+tags: ["techsupport"]
+title: "Sony Vaio C2M/W, Lubuntu 14.04 and a new battery"
+type: "post"
 
-+++
+---
 
 The genuine battery died a few months back on the "bricktop" (a Sony Vaio C2M/W), and with the hard drive starting to click, I just dumped it on the side and gave up with it. After trying to persist with an Atom N450 netbook (Visual Studio usage is soul-destroying on an Atom CPU!), I've dug it back out and ordered a new battery from Amazon and the Intel 40Gb SSD that was on offer at Ebuyer for 20 quid.
 

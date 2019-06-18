@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2016-01-15T22:59:12Z"
-description = "Is the LG G3 possibly the worst flagship device launched by a big company? Let us find out..."
-tags = ["mobilephones", "hardware"]
-title = "LG G3 - No fun here"
-type = "post"
+---
+author: "Jon"
+date: "2016-01-15T22:59:12Z"
+description: "Is the LG G3 possibly the worst flagship device launched by a big company? Let us find out..."
+tags: ["mobilephones", "hardware"]
+title: "LG G3 - No fun here"
+type: "post"
 
-+++
+---
 **Edit 04/04/2016**<br/>
 I should have updated this post sooner. Usually I'd just include an addendum at the bottom, but I've re-worded a few bits in the content as my original review was maybe a tad harsh, and I'll explain why below. It's just a shame it took so long for the Marshmallow update to be available, as I'd already had enough with the handset and wanted back to an Apple where things are just simple!
 <hr/>

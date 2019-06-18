@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2014-01-01T18:30:00Z"
-description = "I was lucky enough at Christmas for my wife to surprise me with a Raspberry Pi. I've wanted one for some time but never got around to actually ordering one."
-tags = ["raspberrypi"]
-title = "Raspberry Pi & Hannspree 37\" TV"
-type = "post"
+---
+author: "Jon"
+date: "2014-01-01T18:30:00Z"
+description: "I was lucky enough at Christmas for my wife to surprise me with a Raspberry Pi. I've wanted one for some time but never got around to actually ordering one."
+tags: ["raspberrypi"]
+title: "Raspberry Pi & Hannspree 37\" TV"
+type: "post"
 
-+++
+---
 
 I was lucky enough at Christmas for my wife to surprise me with a Raspberry Pi. I've wanted one for some time but never got around to actually ordering one. My wife always asks me when she's faced with techie decisions which made it an even bigger surprise.
 

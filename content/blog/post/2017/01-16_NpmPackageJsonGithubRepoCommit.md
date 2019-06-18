@@ -1,17 +1,17 @@
-+++
-author = "Jon"
-date = "2017-01-16T22:38:50Z"
-description = "Sometimes the version of an npm package has some functionality you want, but it has issues which break other stuff. What do you do? Pull the repo and build it yourself and shoehorn it in?"
-title = "npm package.json - Package From a Github Commit"
-type = "post"
-tags = [
+---
+author: "Jon"
+date: "2017-01-16T22:38:50Z"
+description: "Sometimes the version of an npm package has some functionality you want, but it has issues which break other stuff. What do you do? Pull the repo and build it yourself and shoehorn it in?"
+title: "npm package.json - Package From a Github Commit"
+type: "post"
+tags: [
 	"programming",
 	"javascript",
 	"reactjs",
 	"npm"
 ]
 
-+++
+---
 
 Sometimes the version of an npm package has some functionality you want, but it has issues which break other stuff. What do you do? Pull the repo and build it yourself and shoehorn it in? Let's see...
 

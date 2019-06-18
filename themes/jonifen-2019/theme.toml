@@ -4,9 +4,9 @@
 name = "Jonifen 2019"
 license = "MIT"
 licenselink = ""
-description = ""
+description: ""
 homepage = ""
-tags = ["blog"]
+tags: ["blog"]
 features = [""]
 min_version = 0.18
 

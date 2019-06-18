@@ -1,8 +1,8 @@
-+++
-author = "Jon"
-date = "2015-11-17T23:14:01Z"
-title = "Jon Cain | jonifen.co.uk"
-+++
+---
+author: "Jon"
+date: "2015-11-17T23:14:01Z"
+title: "Jon Cain | jonifen.co.uk"
+---
 
 I'm a Software Developer using C#, JavaScript (including React and Redux). As penance for a past life, I have a lot of experience with VB6 too :)
 

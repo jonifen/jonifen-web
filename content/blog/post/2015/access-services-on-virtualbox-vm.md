@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2015-05-22T22:15:00Z"
-description = "In my current job I use a lot of virtual machines due to the variety of applications we support and the demand for them to work on many versions of Windows."
-tags = ["techsupport", "virtualpc"]
-title = "Access services on VirtualBox VM"
-type = "post"
+---
+author: "Jon"
+date: "2015-05-22T22:15:00Z"
+description: "In my current job I use a lot of virtual machines due to the variety of applications we support and the demand for them to work on many versions of Windows."
+tags: ["techsupport", "virtualpc"]
+title: "Access services on VirtualBox VM"
+type: "post"
 
-+++
+---
 
 In my current job I use a lot of virtual machines due to the variety of applications we support and the demand for them to work on many versions of Windows.
 As a result, we do have web services that I'd run on a VM, but it's not possible to bridge the adapters (to allow external access to the VM) due to security guidelines at work, so I have to try something else.

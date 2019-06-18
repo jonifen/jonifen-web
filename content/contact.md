@@ -1,9 +1,9 @@
-+++
-author = "Jon"
-date = "2019-04-21T15:18:01Z"
-title = "Contact me"
-type = "sitecontent"
-+++
+---
+author: "Jon"
+date: "2019-04-21T15:18:01Z"
+title: "Contact me"
+type: "sitecontent"
+---
 
 You can get in touch through one of the following methods:
 

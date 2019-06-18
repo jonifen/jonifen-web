@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2014-07-18T20:18:00Z"
-description = "I've been spending some time recently to learn WPF a bit better including the MVVM pattern to encourage the separation of concerns between the view and the logic behind it."
-tags = ["programming", "c#", "wpf"]
-title = "Ribbon in .NET 4.5 using WPF and MVVM"
-type = "post"
+---
+author: "Jon"
+date: "2014-07-18T20:18:00Z"
+description: "I've been spending some time recently to learn WPF a bit better including the MVVM pattern to encourage the separation of concerns between the view and the logic behind it."
+tags: ["programming", "c#", "wpf"]
+title: "Ribbon in .NET 4.5 using WPF and MVVM"
+type: "post"
 
-+++
+---
 
 I've been spending some time recently to learn WPF a bit better including the MVVM pattern to encourage the separation of concerns between the view and the logic behind it.
 

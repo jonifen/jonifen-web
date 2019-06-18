@@ -1,19 +1,15 @@
-+++
-description = "Sky provide a remote code tool on their website, but it can hardly be called accurate..."
-tags = [
+---
+description: "Sky provide a remote code tool on their website, but it can hardly be called accurate..."
+tags: [
   "tv",
   "skytv"
 ]
-title = "Sky TV Remote Codes"
-keywords = [
-  "tv",
-  "skytv"
-]
-date = "2016-10-30T19:01:43Z"
-type = "post"
-author = "Jon"
+title: "Sky TV Remote Codes"
+date: "2016-10-30T19:01:43Z"
+type: "post"
+author: "Jon"
+---
 
-+++
 Sky provide a remote code tool on their website, but it can hardly be called accurate. It's happened on a few occasions now, that I spend some time trying different codes that the tool provides for a TV, only to be left empty-handed (well, not entirely... I actually end up with my hands full... one remote in each hand in fact.)
 
 So I've decided to create a post on here, which undoubtedly Google will spider at some point, that I'll keep updated with every future encounter that Sky's website doesn't help with.

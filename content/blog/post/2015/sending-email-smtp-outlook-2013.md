@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2015-08-28T00:09:00Z"
-description = "Recently I've noticed that I've not been able to send emails in Outlook 2013 on the desktop computer. It's been working fine on my laptop, but the desktop no such luck."
-tags = ["techsupport", "email"]
-title = "Sending email via SMTP on Outlook 2013"
-type = "post"
+---
+author: "Jon"
+date: "2015-08-28T00:09:00Z"
+description: "Recently I've noticed that I've not been able to send emails in Outlook 2013 on the desktop computer. It's been working fine on my laptop, but the desktop no such luck."
+tags: ["techsupport", "email"]
+title: "Sending email via SMTP on Outlook 2013"
+type: "post"
 
-+++
+---
 
 Recently I've noticed that I've not been able to send emails in Outlook 2013 on the desktop computer. It's been working fine on my laptop, but the desktop no such luck.
 

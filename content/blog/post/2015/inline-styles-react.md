@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2015-11-12T20:46:00Z"
-description = "While working on the Griddle functionality at work, we needed to throw in some inline styling (just to test something out quickly). Unfortunately, with React, this isn't as straightforward as just throwing in a style attribute with a few values."
-tags = ["programming", "javascript", "reactjs"]
-title = "Inline styles with React"
-type = "post"
+---
+author: "Jon"
+date: "2015-11-12T20:46:00Z"
+description: "While working on the Griddle functionality at work, we needed to throw in some inline styling (just to test something out quickly). Unfortunately, with React, this isn't as straightforward as just throwing in a style attribute with a few values."
+tags: ["programming", "javascript", "reactjs"]
+title: "Inline styles with React"
+type: "post"
 
-+++
+---
 
 While working on the Griddle functionality at work, we needed to throw in some inline styling (just to test something out quickly). Unfortunately, with React, this isn't as straightforward as just throwing in a style attribute with a few values.
 

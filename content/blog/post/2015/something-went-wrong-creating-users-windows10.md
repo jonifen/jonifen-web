@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2015-10-24T11:30:00Z"
-description = "On a fresh install of Windows 10, I found I was unable to add a second user to the system (via All Settings) and constantly got the \"Something went wrong\" screen. I tried a few reboots but to no avail."
-tags = ["techsupport", "windows10"]
-title = "\"Something went wrong\" - Creating users on Windows 10"
-type = "post"
+---
+author: "Jon"
+date: "2015-10-24T11:30:00Z"
+description: "On a fresh install of Windows 10, I found I was unable to add a second user to the system (via All Settings) and constantly got the \"Something went wrong\" screen. I tried a few reboots but to no avail."
+tags: ["techsupport", "windows10"]
+title: "\"Something went wrong\" - Creating users on Windows 10"
+type: "post"
 
-+++
+---
 
 On a fresh install of Windows 10, I found I was unable to add a second user to the system (via All Settings) and constantly got the "Something went wrong" screen. I tried a few reboots but to no avail.
 A quick google found that a lot of people with laptops were having this problem, and removing the battery and running on AC power only appeared to resolve their problem, but I'm on a desktop... i.e. no battery.

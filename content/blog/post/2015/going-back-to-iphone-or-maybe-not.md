@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2015-12-23T00:02:00Z"
-description = "My 'love affair' (if you could ever call it that) with Android has always been a little rocky..."
-tags = ["mobilephones", "techsupport"]
-title = "Going back to iPhone! Or maybe not..."
-type = "post"
+---
+author: "Jon"
+date: "2015-12-23T00:02:00Z"
+description: "My 'love affair' (if you could ever call it that) with Android has always been a little rocky..."
+tags: ["mobilephones", "techsupport"]
+title: "Going back to iPhone! Or maybe not..."
+type: "post"
 
-+++
+---
 
 My 'love affair' (if you could ever call it that) with Android has always been a little rocky (as mentioned <a href="mcafee-mobile-security.md">back in June</a>) but I'm now ready to go back to an iPhone.
 Being a Dad, this time of year is never exactly the right time to blow out big money on a new phone for myself so that'll have to wait for the new year. But I've got hold of my daughter's old iPhone 5c to use in the meantime.

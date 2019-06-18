@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2014-06-22T00:25:00Z"
-description = "It's finally arrived!"
-tags = ["hardware"]
-title = "Dell XPS 15"
-type = "post"
+---
+author: "Jon"
+date: "2014-06-22T00:25:00Z"
+description: "It's finally arrived!"
+tags: ["hardware"]
+title: "Dell XPS 15"
+type: "post"
 
-+++
+---
 
 It's finally arrived!
 

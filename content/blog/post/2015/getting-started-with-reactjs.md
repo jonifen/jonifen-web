@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2015-11-06T22:08:00Z"
-description = "I've been following the \"Getting Started\" tutorials on the ReactJS website. It's a bit... errr... bizarre to be honest! It does say that the way it does things is a little odd, and to give it 5 minutes and then make a decision. Despite this \"odd-ness\" though, it's become really popular, so it's well worth having a look at."
-tags = ["programming", "javascript", "reactjs"]
-title = "Getting Started with React.js"
-type = "post"
+---
+author: "Jon"
+date: "2015-11-06T22:08:00Z"
+description: "I've been following the \"Getting Started\" tutorials on the ReactJS website. It's a bit... errr... bizarre to be honest! It does say that the way it does things is a little odd, and to give it 5 minutes and then make a decision. Despite this \"odd-ness\" though, it's become really popular, so it's well worth having a look at."
+tags: ["programming", "javascript", "reactjs"]
+title: "Getting Started with React.js"
+type: "post"
 
-+++
+---
 
 I've been following the "[Getting Started](https://facebook.github.io/react/docs/getting-started.html)" tutorials on the ReactJS website. It's a bit... errr... bizarre to be honest! It does say that the way it does things is a little odd, and to give it 5 minutes and then make a decision. Despite this "odd-ness" though, it's become really popular, so it's well worth having a look at.
 

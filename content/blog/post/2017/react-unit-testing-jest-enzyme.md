@@ -1,17 +1,17 @@
-+++
-date = "2017-12-07T22:34:37Z"
-title = "React.js Unit Testing with Jest and Enzyme"
-type = "post"
-author = "Jon"
-description = "I've written loads of unit tests in my lifetime for C# and JavaScript, but never gotten around to writing any for testing the actual React components because there's always been something more pressing. Time to put that right and take the plunge."
-tags = [
+---
+date: "2017-12-07T22:34:37Z"
+title: "React.js Unit Testing with Jest and Enzyme"
+type: "post"
+author: "Jon"
+description: "I've written loads of unit tests in my lifetime for C# and JavaScript, but never gotten around to writing any for testing the actual React components because there's always been something more pressing. Time to put that right and take the plunge."
+tags: [
     "programming",
     "javascript",
     "reactjs",
     "testing"
 ]
 
-+++
+---
 
 I've written loads of unit tests in my lifetime for C# and JavaScript, but never gotten around to writing any for testing the actual React components because there's always been something more pressing. Time to put that right and take the plunge.
 

@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2016-01-14T21:02:37Z"
-description = "After a crazy few days trying to find a new Android tablet for my son, I've realised that there are **very** few decent 10\" Android tablets."
-tags = ["hardware", "android", "family"]
-title = "A Decent 10\" Android Tablet... Does one exist?"
-type = "post"
+---
+author: "Jon"
+date: "2016-01-14T21:02:37Z"
+description: "After a crazy few days trying to find a new Android tablet for my son, I've realised that there are **very** few decent 10\" Android tablets."
+tags: ["hardware", "android", "family"]
+title: "A Decent 10\" Android Tablet... Does one exist?"
+type: "post"
 
-+++
+---
 My son bought an Android tablet around 18 months ago with a combination of Christmas and Birthday money. It became an extension of his body with him taking it everywhere to play games and watch YouTube videos about Minecraft and Garry's Mod.
 
 He recently leapt into bed one night (forgetting the tablet was on his bed) and broke the screen with his knee. It was a complete accident, but he was absolutely devastated by what had happened. I explained that if we couldn't get a screen, I'd pay for half of any replacement as he had looked after it so well up until the accident.

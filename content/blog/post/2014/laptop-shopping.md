@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2014-05-31T00:08:00Z"
-description = "... it's just never easy when you're picky like me."
-tags = ["hardware", "programming"]
-title = "Laptop Shopping"
-type = "post"
+---
+author: "Jon"
+date: "2014-05-31T00:08:00Z"
+description: "... it's just never easy when you're picky like me."
+tags: ["hardware", "programming"]
+title: "Laptop Shopping"
+type: "post"
 
-+++
+---
 
 ... it's just never easy when you're picky like me.
 

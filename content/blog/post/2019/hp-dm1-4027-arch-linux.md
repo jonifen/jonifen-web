@@ -1,14 +1,14 @@
-+++
-type = "post"
-description = "I've recently started to use a HP DM1-4027ea as a replacement for the Asus Eee 1005P netbook. The 4Gb RAM (upgradable to 8Gb) and more powerful CPU/GPU combo meant that it should give reasonable performance where the Eee struggles (downloading npm modules and browsing script/image heavy websites)..."
-date = "2019-04-19T22:15:18Z"
-title = "HP DM1-4027 and Arch Linux"
-author = "Jon"
-tags = [
+---
+type: "post"
+description: "I've recently started to use a HP DM1-4027ea as a replacement for the Asus Eee 1005P netbook. The 4Gb RAM (upgradable to 8Gb) and more powerful CPU/GPU combo meant that it should give reasonable performance where the Eee struggles (downloading npm modules and browsing script/image heavy websites)..."
+date: "2019-04-19T22:15:18Z"
+title: "HP DM1-4027 and Arch Linux"
+author: "Jon"
+tags: [
 	"techsupport",
 	"linux"
 ]
-+++
+---
 
 I've recently started to use a HP DM1-4027ea as a replacement for the Asus Eee 1005P netbook. The 4Gb RAM (upgradable to 8Gb) and more powerful CPU/GPU combo meant that it should give reasonable performance where the Eee struggles (downloading npm modules and browsing script/image heavy websites).
 

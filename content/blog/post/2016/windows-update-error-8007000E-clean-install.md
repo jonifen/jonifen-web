@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2016-03-12T20:14:31Z"
-description = "Fresh install of Windows 7 32-bit (with SP1) fails to get updates with error 8007000E"
-tags = ["techsupport", "windows"]
-title = "Windows Update Error 8007000E"
-type = "post"
+---
+author: "Jon"
+date: "2016-03-12T20:14:31Z"
+description: "Fresh install of Windows 7 32-bit (with SP1) fails to get updates with error 8007000E"
+tags: ["techsupport", "windows"]
+title: "Windows Update Error 8007000E"
+type: "post"
 
-+++
+---
 
 Twice recently I've reinstalled Windows 7 on a machine, only for Windows Update to fail when checking for updates. On both machines it gave an error 8007000E.
 

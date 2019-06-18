@@ -1,14 +1,11 @@
-+++
-author = "Jon"
-date = "2015-11-16T23:43:37Z"
-description = "I've been looking for a while at various blogging engines for my website and came across Hugo which is a static page generator."
-keywords = ["Site"]
-tags = ["gohugo.io", "site"]
-title = "New site using Hugo"
-topics = ["topic 1"]
-type = "post"
-
-+++
+---
+author: "Jon"
+date: "2015-11-16T23:43:37Z"
+description: "I've been looking for a while at various blogging engines for my website and came across Hugo which is a static page generator."
+tags: ["gohugo.io", "site"]
+title: "New site using Hugo"
+type: "post"
+---
 
 I've been looking for a while at various blogging engines for my website
 and came across [Hugo](http://www.gohugo.io) which is a static page generator.

@@ -1,10 +1,10 @@
-+++
-type = "post"
-title = "The imported project \".../Microsoft.WebApplication.targets\" was not found"
-date = 2019-06-17T21:59:33+01:00
-author = "Jon"
-tags = ["programming", "visualstudio"]
-+++
+---
+type: "post"
+title: "The imported project \".../Microsoft.WebApplication.targets\" was not found"
+date: 2019-06-17T21:59:33+01:00
+author: "Jon"
+tags: ["programming", "visualstudio"]
+---
 
 We have an existing web application project at work which was failing to open in Visual Studio 2019 with the following error:
 

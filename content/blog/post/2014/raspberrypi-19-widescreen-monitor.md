@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2014-01-18T22:36:00Z"
-description = "Earlier today I booked places for me and my son on a Raspberry Pi day in Manchester and then realised I might struggle to get the TV there as it's pretty heavy, plus I doubt we'd be allowed it on a bus! Luckily, we still have the 19\" widescreen from the old living room PC, so I looked at using that instead."
-tags = ["raspberrypi"]
-title = "Raspberry Pi on a 19\" Widescreen (16:10) LCD Monitor"
-type = "post"
+---
+author: "Jon"
+date: "2014-01-18T22:36:00Z"
+description: "Earlier today I booked places for me and my son on a Raspberry Pi day in Manchester and then realised I might struggle to get the TV there as it's pretty heavy, plus I doubt we'd be allowed it on a bus! Luckily, we still have the 19\" widescreen from the old living room PC, so I looked at using that instead."
+tags: ["raspberrypi"]
+title: "Raspberry Pi on a 19\" Widescreen (16:10) LCD Monitor"
+type: "post"
 
-+++
+---
 
 Earlier today I booked places for me and my son on a Raspberry Pi day in Manchester and then realised I might struggle to get the TV there as it's pretty heavy, plus I doubt we'd be allowed it on a bus! Luckily, we still have the 19" widescreen from the old living room PC, so I looked at using that instead.
 

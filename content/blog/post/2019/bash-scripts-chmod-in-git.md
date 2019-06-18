@@ -1,13 +1,13 @@
-+++
-type = "post"
-title = "Retaining chmod permissions for scripts in git repositories"
-date = 2019-05-01T20:44:36+01:00
-author = "Jon"
-tags = [
+---
+type: "post"
+title: "Retaining chmod permissions for scripts in git repositories"
+date: 2019-05-01T20:44:36+01:00
+author: "Jon"
+tags: [
   "programming",
   "sourcecontrol"
 ]
-+++
+---
 Our continuous delivery setup at work requires that we use bash scripts for builds that can be handled by Linux machines.
 
 The main issue is when we create a new project, we often get "Permission Denied" errors when the CI system runs the scripts on the build agents. Usually, you'd just run `chmod` on a machine and try again, but this doesn't work when the files are being pushed into a git repository, and then pulled at the other side.

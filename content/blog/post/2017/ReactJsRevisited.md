@@ -1,16 +1,16 @@
-+++
-type = "post"
-title = "React.js Revisited"
-author = "Jon"
-description = "It's been a while since I wrote up my beginner guide to React.js and I've been thinking it's time to revisit it."
-tags = [
+---
+type: "post"
+title: "React.js Revisited"
+author: "Jon"
+description: "It's been a while since I wrote up my beginner guide to React.js and I've been thinking it's time to revisit it."
+tags: [
   "programming",
   "javascript",
   "reactjs"
 ]
-date = "2017-02-09T21:06:50Z"
+date: "2017-02-09T21:06:50Z"
 
-+++
+---
 
 **Edit 05/03/2017** - My son has kindly followed this mini tutorial and has pointed out a few areas where I didn't make much sense. All part of learning! But I've updated those areas below.
 

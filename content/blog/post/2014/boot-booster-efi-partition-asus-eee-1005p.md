@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2014-08-18T16:41:00Z"
-description = "We have an Asus EeePC 1005P netbook which comes with the Intel Atom N450 CPU. The BIOS provides a \"Boot Booster\" option which caches POST information in a special partition on the hard drive to speed up the boot process."
-tags = ["techsupport", "hardware"]
-title = "Boot Booster (EFI) Partition on an Asus EeePC 1005P"
-type = "post"
+---
+author: "Jon"
+date: "2014-08-18T16:41:00Z"
+description: "We have an Asus EeePC 1005P netbook which comes with the Intel Atom N450 CPU. The BIOS provides a \"Boot Booster\" option which caches POST information in a special partition on the hard drive to speed up the boot process."
+tags: ["techsupport", "hardware"]
+title: "Boot Booster (EFI) Partition on an Asus EeePC 1005P"
+type: "post"
 
-+++
+---
 
 We have an Asus EeePC 1005P netbook which comes with the Intel Atom N450 CPU. The BIOS provides a "Boot Booster" option which caches POST information in a special partition on the hard drive to speed up the boot process.
 Unfortunately, as part of removing all the partitions from the hard drive, this "special" partition has been lost and I needed to recreate it.

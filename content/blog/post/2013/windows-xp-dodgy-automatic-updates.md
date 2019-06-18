@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2013-12-29T20:55:00Z"
-description = "So it's the end of a long Sunday which started later than expected"
-tags = ["techsupport", "windows"]
-title = "Windows XP and it's poor effort of an \"Automatic Updates\" service"
-type = "post"
+---
+author: "Jon"
+date: "2013-12-29T20:55:00Z"
+description: "So it's the end of a long Sunday which started later than expected"
+tags: ["techsupport", "windows"]
+title: "Windows XP and it's poor effort of an \"Automatic Updates\" service"
+type: "post"
 
-+++
+---
 
 So it's the end of a long Sunday which started later than expected (as I'd slept in despite my son's best efforts to wake me with the ever-loud playback of YouTube videos). I've spent most of the day glaring at a computer screen but not for productive gain as it's my family duty to fix the broken computers of the children/parents/siblings, except this time it's been a looonnnnggg job which Windows XP is just aching to make so much worse.
 

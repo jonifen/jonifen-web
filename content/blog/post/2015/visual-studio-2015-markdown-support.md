@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2015-11-20T23:29:55Z"
-description = "Wow! I've just tried editing a markdown file in Visual Studio..."
-tags = ["programming", "gohugo.io", "site", "visualstudio"]
-title = "Markdown Support in Visual Studio 2015"
-type = "post"
+---
+author: "Jon"
+date: "2015-11-20T23:29:55Z"
+description: "Wow! I've just tried editing a markdown file in Visual Studio..."
+tags: ["programming", "gohugo.io", "site", "visualstudio"]
+title: "Markdown Support in Visual Studio 2015"
+type: "post"
 
-+++
+---
 
 **Wow!**
 

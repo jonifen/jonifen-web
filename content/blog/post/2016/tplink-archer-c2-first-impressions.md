@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2016-01-09T21:33:55Z"
-description = "As mentioned in my last post, I was in the hunt for a new router to replace the aging Buffalo WHR-HP-G54."
-tags = ["techsupport", "connectivity", "router"]
-title = "TP-Link Archer C2 - First Impressions"
-type = "post"
+---
+author: "Jon"
+date: "2016-01-09T21:33:55Z"
+description: "As mentioned in my last post, I was in the hunt for a new router to replace the aging Buffalo WHR-HP-G54."
+tags: ["techsupport", "connectivity", "router"]
+title: "TP-Link Archer C2 - First Impressions"
+type: "post"
 
-+++
+---
 As mentioned in my [last post](http://jonifen.co.uk/post/2016/buffalo-whr-hp-g54/), I was in the hunt for a new router to replace the aging Buffalo WHR-HP-G54. I'd found that it wasn't capable of handling fibre broadband speeds (hardly surprising... given that it's running a 200MHz single core CPU with barely a few megs free of the 16Mb RAM).
 
 I ended up dropping by PC World and picking up the TP-Link Archer C2 for £49.99 (a few quid more expensive than it was at Scan, but PC World was closer, so I was saving petrol money and around 30 minutes of my time for the round-trip).

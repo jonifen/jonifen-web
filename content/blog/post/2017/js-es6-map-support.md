@@ -1,15 +1,15 @@
-+++
-date = "2017-06-20T22:47:06+01:00"
-type = "post"
-title = "Map() support in JavaScript ES6/ES2015"
-author = "Jon"
-description = "ECMAScript 6/2015 has brought a lot of new things to the world of JavaScript, and Map() is one of them. However, not all browsers are too keen on particular ways of using it..."
-tags = [
+---
+date: "2017-06-20T22:47:06+01:00"
+type: "post"
+title: "Map() support in JavaScript ES6/ES2015"
+author: "Jon"
+description: "ECMAScript 6/2015 has brought a lot of new things to the world of JavaScript, and Map() is one of them. However, not all browsers are too keen on particular ways of using it..."
+tags: [
 	"programming",
 	"javascript"
 ]
 
-+++
+---
 
 ECMAScript 6/2015 has brought a lot of new things to the world of JavaScript, and Map() is one of them. However, not all browsers are too keen on particular ways of using it.
 

@@ -1,16 +1,16 @@
-+++
-type = "post"
-title = "React.js Continued... State!"
-author = "Jon"
-description = "This time I'll be looking at State. What it is and how to use it..."
-tags = [
+---
+type: "post"
+title: "React.js Continued... State!"
+author: "Jon"
+description: "This time I'll be looking at State. What it is and how to use it..."
+tags: [
   "programming",
   "javascript",
 	"reactjs"
 ]
-date = "2017-02-14T22:13:37Z"
+date: "2017-02-14T22:13:37Z"
 
-+++
+---
 
 This time I'll be looking at State. What it is and how to use it... Like last time, we'll be continuing with the code from the [previous post](/blog/post/2017/reactjscontinued/).
 

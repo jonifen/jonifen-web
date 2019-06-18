@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2013-03-24T22:38:00Z"
-description = "We're not able to continually upgrade our Creative Suite version every time a new one comes out, so we're still on CS3."
-tags = ["adobecs3", "photoshop", "techsupport"]
-title = "Fresh install of Adobe CS3 but no updates available?"
-type = "post"
+---
+author: "Jon"
+date: "2013-03-24T22:38:00Z"
+description: "We're not able to continually upgrade our Creative Suite version every time a new one comes out, so we're still on CS3."
+tags: ["adobecs3", "photoshop", "techsupport"]
+title: "Fresh install of Adobe CS3 but no updates available?"
+type: "post"
 
-+++
+---
 
 We're not able to continually upgrade our Creative Suite version every time a new one comes out, so we're still on CS3. Unfortunately though, I installed an SSD in the desktop yesterday which of course meant reinstalling it with CS3 from the discs. Everything seemed fine until I tried to run an update, at which point it complained with the following message:
 

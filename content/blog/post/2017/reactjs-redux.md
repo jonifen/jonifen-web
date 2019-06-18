@@ -1,16 +1,16 @@
-+++
-draft = true
-type = "post"
-title = "React.js - Redux"
-author = "Jon"
-description = "It's been a while since I last posted anything. As I've covered State, it's time to look at Redux and how it can help get a hold of State when it's being updated in many places within a component."
-tags = [
+---
+draft: true
+type: "post"
+title: "React.js - Redux"
+author: "Jon"
+description: "It's been a while since I last posted anything. As I've covered State, it's time to look at Redux and how it can help get a hold of State when it's being updated in many places within a component."
+tags: [
   "programming",
   "javascript",
 	"reactjs"
 ]
-date = "2017-04-11T19:54:34+01:00"
-+++
+date: "2017-04-11T19:54:34+01:00"
+---
 
 It's been a while since I last posted anything. As I've covered State, it's time to look at Redux and how it can help get a hold of State when it's being updated in many places within a component.
 

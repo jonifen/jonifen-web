@@ -1,16 +1,16 @@
-+++
-author = "Jon"
-tags = [
+---
+author: "Jon"
+tags: [
   "raspberrypi",
   "hardware",
   "iot"
 ]
-date = "2017-01-11T06:30:33Z"
-title = "Windows 10 IoT on a Raspberry Pi 2"
-type = "post"
-description = "I thought it a good idea to spend some time looking at Windows 10 IoT edition on my Raspberry Pi 2, this post describes my experiences in getting it set up..."
+date: "2017-01-11T06:30:33Z"
+title: "Windows 10 IoT on a Raspberry Pi 2"
+type: "post"
+description: "I thought it a good idea to spend some time looking at Windows 10 IoT edition on my Raspberry Pi 2, this post describes my experiences in getting it set up..."
 
-+++
+---
 
 I thought it a good idea to spend some time looking at Windows 10 IoT edition on my Raspberry Pi 2. I've been looking at this since it was first announced a while back, but never actually got around to having a proper look into it and getting it installed on one of our Pis.
 

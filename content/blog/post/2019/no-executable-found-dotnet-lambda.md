@@ -1,15 +1,16 @@
-+++
-type = "post"
-title = "No executable found matching command \"dotnet-lambda\""
-date = 2019-05-01T21:01:03+01:00
-author = "Jon"
-tags = [
+---
+type: "post"
+title: "No executable found matching command \"dotnet-lambda\""
+date: 2019-05-01T21:01:03+01:00
+author: "Jon"
+tags: [
   "programming",
   "dotnetcore",
   "aws",
   "lambda"
 ]
-+++
+---
+
 When packaging up a dotnetcore lambda function for deployment to AWS, you would run the following command:
 
 ```

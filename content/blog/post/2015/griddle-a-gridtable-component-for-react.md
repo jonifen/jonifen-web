@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2015-11-12T20:34:00Z"
-description = "We had a requirement at work to display some tabular data that is retrieved from a web service as a JSON object. As we have recently started using React, it made sense to find a decent component that suited what we needed and after a bit of browsing, we found Griddle."
-tags = ["programming", "javascript", "reactjs", "griddle"]
-title = "Griddle - A Grid/Table Component for React"
-type = "post"
+---
+author: "Jon"
+date: "2015-11-12T20:34:00Z"
+description: "We had a requirement at work to display some tabular data that is retrieved from a web service as a JSON object. As we have recently started using React, it made sense to find a decent component that suited what we needed and after a bit of browsing, we found Griddle."
+tags: ["programming", "javascript", "reactjs", "griddle"]
+title: "Griddle - A Grid/Table Component for React"
+type: "post"
 
-+++
+---
 
 We had a requirement at work to display some tabular data that is retrieved from a web service as a JSON object. As we have recently started using React, it made sense to find a decent component that suited what we needed and after a bit of browsing, we found Griddle.
 

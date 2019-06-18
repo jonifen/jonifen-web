@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2015-06-06T08:26:00Z"
-description = "About a fortnight ago, I changed to an android handset after having iPhones for the last 4 years. I had decided on an LG G3 which turns out to come preinstalled with McAfee Mobile Security... Which is fine... Or would be if it worked properly."
-tags = ["mobilephones", "techsupport"]
-title = "McAfee Mobile Security"
-type = "post"
+---
+author: "Jon"
+date: "2015-06-06T08:26:00Z"
+description: "About a fortnight ago, I changed to an android handset after having iPhones for the last 4 years. I had decided on an LG G3 which turns out to come preinstalled with McAfee Mobile Security... Which is fine... Or would be if it worked properly."
+tags: ["mobilephones", "techsupport"]
+title: "McAfee Mobile Security"
+type: "post"
 
-+++
+---
 
 About a fortnight ago, I changed to an android handset after having iPhones for the last 4 years. I had decided on an LG G3 which turns out to come preinstalled with McAfee Mobile Security... Which is fine... Or would be if it worked properly.
 

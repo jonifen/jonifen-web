@@ -1,15 +1,15 @@
-+++
-type = "post"
-title = "Rendering an array of data as a clickable list using React.js"
-author = "Jon"
-description = "React.js is great for quickly rendering arrays of data in a tabular format, and there's loads of grid-like packages out there in npm, but sometimes you just need to hand-crank something yourself. Which is fine, until you want the row to be clickable..."
-tags = [
+---
+type: "post"
+title: "Rendering an array of data as a clickable list using React.js"
+author: "Jon"
+description: "React.js is great for quickly rendering arrays of data in a tabular format, and there's loads of grid-like packages out there in npm, but sometimes you just need to hand-crank something yourself. Which is fine, until you want the row to be clickable..."
+tags: [
   "programming",
   "javascript",
   "reactjs"
 ]
-date = "2017-04-13T21:55:37+01:00"
-+++
+date: "2017-04-13T21:55:37+01:00"
+---
 
 React.js is great for quickly rendering arrays of data in a tabular format, and there's loads of grid-like packages out there in npm, but sometimes you just need to hand-crank something yourself. Which is fine, until you want the row to be clickable...
 

@@ -1,12 +1,12 @@
-+++
-author = "Jon"
-date = "2014-09-13T10:24:00Z"
-description = "My son recently bought an Acer A3-A10 tablet with some money he had saved."
-tags = ["minecraft"]
-title = "Minecraft Pocket Edition - Invisible mobs/monsters"
-type = "post"
+---
+author: "Jon"
+date: "2014-09-13T10:24:00Z"
+description: "My son recently bought an Acer A3-A10 tablet with some money he had saved."
+tags: ["minecraft"]
+title: "Minecraft Pocket Edition - Invisible mobs/monsters"
+type: "post"
 
-+++
+---
 
 My son recently bought an Acer A3-A10 tablet with some money he had saved. It's a great tablet for the £135 it cost at Argos and even sweeter with the £10 voucher with which he was able to get a Google Play voucher :)
 Anyway, to the point of this post. When I play Minecraft Pocket Edition against him, I found the mobs were invisible and I couldn't even hear any creepers or spiders, I just got exploded or bit by them silently. I thought this was a little odd, and after searching for information at the time, I was unable to find anything about it. Until now.

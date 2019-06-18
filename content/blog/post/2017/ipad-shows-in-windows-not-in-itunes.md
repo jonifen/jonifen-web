@@ -1,15 +1,15 @@
-+++
-date = "2017-05-21T21:09:27+01:00"
-title = "iPad appears in Windows 10, but not showing in iTunes"
-type = "post"
-author = "Jon"
-description = "I have an aging iPad2 which is getting on a bit but still works fine, but often won't appear in iTunes, but is showing in Windows 10 as a device in 'This PC'..."
-tags = [
+---
+date: "2017-05-21T21:09:27+01:00"
+title: "iPad appears in Windows 10, but not showing in iTunes"
+type: "post"
+author: "Jon"
+description: "I have an aging iPad2 which is getting on a bit but still works fine, but often won't appear in iTunes, but is showing in Windows 10 as a device in 'This PC'..."
+tags: [
   "techsupport",
   "hardware"
 ]
 
-+++
+---
 
 I have an aging iPad2 which is getting on a bit but still works fine, but often won't appear in iTunes, but is showing in Windows 10 as a device in 'This PC'.
 

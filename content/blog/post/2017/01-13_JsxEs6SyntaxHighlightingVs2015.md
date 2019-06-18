@@ -1,17 +1,17 @@
-+++
-author = "Jon"
-description = "Visual Studio 2015 (by default) isn't exactly crash hot for editing JavaScript, especially JSX/ES6 for React etc."
-date = "2017-01-13T20:02:39Z"
-title = "JSX/ES6 Syntax Highlighting in Visual Studio 2015"
-type = "post"
-tags = [
+---
+author: "Jon"
+description: "Visual Studio 2015 (by default) isn't exactly crash hot for editing JavaScript, especially JSX/ES6 for React etc."
+date: "2017-01-13T20:02:39Z"
+title: "JSX/ES6 Syntax Highlighting in Visual Studio 2015"
+type: "post"
+tags: [
   "programming",
   "javascript",
 	"reactjs",
 	"visualstudio"
 ]
 
-+++
+---
 
 Visual Studio 2015 (by default) isn't exactly crash hot for editing JavaScript, especially JSX/ES6 for React etc.
 
