@@ -2,22 +2,18 @@
 	Name = "Home"
 	Title = "Home"
 	URL = "/"
-	Image = "/images/home.png"
 
 [1]
 	Name = "Blog"
 	Title = "Blog"
-	URL = "/blog"
-	Image = "/images/text.png"
+	URL = "/blog/"
 
 [2]
 	Name = "Tags"
 	Title = "Tags"
-	URL = "/tags"
-	Image = "/images/tags.png"
+	URL = "/tags/"
 
 [3]
 	Name = "Contact"
 	Title = "Contact"
-	URL = "/contact"
-	Image = "/images/twitter.png"
+	URL = "/contact/"
