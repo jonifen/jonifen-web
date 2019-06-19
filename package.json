@@ -1,0 +1,16 @@
+{
+  "name": "jonifen-web",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clone:isithometimeyet": "rm temp/ -rf && git clone https://github.com/jonifen/isithometimeyet temp/isithometimeyet/ && cp -r temp/isithometimeyet/vanilla-js public/isithometimeyet",
+    "clone:cakes": "rm temp/ -rf && git clone https://github.com/jonifen/cakeable-offence temp/cakes/ && cp -r temp/cakes public/cakes",
+    "build": "hugo && npm run clone:isithometimeyet && npm run clone:cakes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonifen/jonifen-web.git"
+  },
+  "author": "jonifen",
+  "homepage": "https://jonifen.co.uk/"
+}
