@@ -8,9 +8,8 @@ tags: [
 	"programming",
 	"umbraco",
   "umbraco7",
-	"c#"
+	"csharp"
 ]
-
 ---
 
 Recently, I've been working on creating an implementation of Umbraco CMS for the Marketing team at work to use for quickly creating content for promotions etc. and the SEO Manager has asked what we could implement to benefit them in terms of SEO (Search Engine Optimisation for those who don't know).

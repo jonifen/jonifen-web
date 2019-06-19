@@ -2,7 +2,7 @@
 author: "Jon"
 date: "2014-05-29T12:31:00Z"
 description: "Since installing Update 2 on the work laptop, I've been unable to check for available updates through the Tools > Extensions & Updates screen as it always timed out."
-tags: ["techsupport", "c#", "visualstudio"]
+tags: ["techsupport", "csharp", "visualstudio"]
 title: "Connection problems in Visual Studio 2013"
 type: "post"
 
