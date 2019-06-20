@@ -2,7 +2,6 @@ baseUrl = "/"
 languageCode = "en-gb"
 title = "Jon Cain"
 copyright = "(c) 2019 Jon Cain"
-theme = "jonifen-2019"
 
 [taxonomies]
 	tag = "tags"
