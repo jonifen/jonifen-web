@@ -1,6 +1,6 @@
 ---
 author: "Jon"
-date: "2015-11-17T23:14:01Z"
+date: 2015-11-17T23:14:01+01:00
 title: "Jon Cain | jonifen.co.uk"
 ---
 

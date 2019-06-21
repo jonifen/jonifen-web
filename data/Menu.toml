@@ -9,9 +9,9 @@
 	URL = "/blog/"
 
 [2]
-	Name = "Tags"
-	Title = "Tags"
-	URL = "/tags/"
+  Name = "Projects"
+  Title = "Projects"
+  URL = "/projects/"
 
 [3]
 	Name = "Contact"
