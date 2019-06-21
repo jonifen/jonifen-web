@@ -4,7 +4,7 @@ title: "Git reverts without automatic commit"
 description: "If you have multiple commits that you want to revert but keep things concise under a single commit, this could be the answer you're looking for."
 date: 2019-05-23T21:52:44+01:00
 author: "Jon"
-tags: ["programming", "sourcecontrol"]
+tags: ["programming", "sourcecontrol", "git"]
 ---
 Git is easily the best source control system I've ever used, yet it's probably one of the more infuriating too because its power and flexibility can also land the users in a whole world of pain.
 
