@@ -2,6 +2,7 @@
 author: "Jon"
 date: 2015-11-17T23:14:01+01:00
 title: "Jon Cain | jonifen.co.uk"
+description: "Software Developer in C#, JavaScript. Husband and Dad of 4. Old before my time, but still a child at heart."
 ---
 
 I'm a Software Developer using C#, JavaScript (including React and Redux). As penance for a past life, I have a lot of experience with VB6 too :)
