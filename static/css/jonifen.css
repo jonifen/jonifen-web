@@ -7,6 +7,7 @@
   --bgcolour: #fff;
   --bluegrey: #2c3856;
   --blackish: #222222;
+  --codebgcolour: #fafafa;
 }
 
 body {
@@ -37,14 +38,14 @@ pre {
   border-radius: 3px;
   padding: 5px;
   font-size: 14px;
-  background-color: #fafafa;
+  background-color: var(--codebgcolour);
   overflow-x: auto;
   font-family: monospace;
 }
 
 code {
   font-family: monospace;
-  background-color: #fafafa;
+  background-color: var(--codebgcolour);
 }
 
 h2 {
@@ -103,19 +104,6 @@ a.nav-item:hover {
   background-color: var(--highlight);
   text-decoration: none;
   color: var(--bgcolour);
-}
-
-.nav-item .item-icon {
-  display: block;
-  padding-top: 0.4rem;
-}
-.nav-item .item-text {
-  display: none;
-}
-
-.footer-nav {
-  display: inline-block;
-  height: 2.5rem;
 }
 
 .container {
