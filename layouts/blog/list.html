@@ -1,4 +1,4 @@
-{{ partial "header" . }}
+{{ partial "page-header" . }}
 
 {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
 {{ range $paginator.Pages }}
