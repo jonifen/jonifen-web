@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "deploy": "sh deploy.sh",
-    "build": "hugo"
+    "build": "hugo",
+    "dev": "hugo server -w"
   },
   "repository": {
     "type": "git",

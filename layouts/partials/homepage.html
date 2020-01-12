@@ -4,7 +4,7 @@
 			<h1>{{ if .IsPage }}{{ if .Draft }}DRAFT :: {{ end }}{{ end }}{{ .Title }}</h1>
 		</header>
 	{{ end }}
-	{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+	{{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
 	{{ range $paginator.Pages }}
 		{{ .Render "summary" }}
 	{{ end }}

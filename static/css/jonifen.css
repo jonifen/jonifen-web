@@ -200,13 +200,21 @@ a.nav-item:hover {
   padding: 0 0.2rem 0 0.2rem;
 }
 
+.link-panel {
+  padding: 1rem 0;
+}
+
+.text-right {
+  text-align: right;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --backgroundColour: #444;
+    --backgroundColour: #113754;
     --textColour: #e4e4e4;
     --highlightColour: #eeae00;
-    --linkColour: #eeae00;
-    --linkHoverColour: #c29722;
+    --linkColour: #88aecb;
+    --linkHoverColour: #99bfdc;
     --headerBackgroundColour: #111;
     --headerTextColour: #e4e4e4;
   }

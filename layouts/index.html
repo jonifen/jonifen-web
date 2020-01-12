@@ -1,7 +1,15 @@
 {{ partial "page-header" . }}
 <div class="container">
-  <div class="content">
-    {{ .Content }}
+  <p>
+    This is a blog about software development, general tech stuff and some other completely random junk!
+  </p>
+
+  {{ range (.Paginate (first 4 (where .Data.Pages "Type" "blog"))).Pages }}
+    {{ .Render "summary" }}
+  {{ end }}
+
+  <div class="link-panel text-right">
+    <a href="/blog/">All Posts &gt;</a>
   </div>
 </div>
 {{ partial "footer" . }}
