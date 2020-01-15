@@ -10,11 +10,13 @@
     <a href="{{ $pag.Prev.URL }}" aria-label="Previous" class="tag"><div class="page-item">&lt;</div></a>
     {{ end }}
 
-
     {{ range $pag.Pagers }}
-    <a href="{{ .URL }}" aria-label="{{ .PageNumber }}" class="tag"><div class="page-item">{{ .PageNumber }}</div></a>
-		{{ end }}
-
+      {{ if eq . $pag }}
+        <span class="tag"><div class="page-item">{{ .PageNumber }}</div></span>
+      {{ else }}
+        <a href="{{ .URL }}" aria-label="{{ .PageNumber }}" class="tag"><div class="page-item">{{ .PageNumber }}</div></a>
+      {{ end }}
+    {{ end }}
 
     {{ if not $pag.HasNext }}
       <div class="tag page-item disabled" disabled>&gt;</div>
