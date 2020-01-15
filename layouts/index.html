@@ -1,8 +1,10 @@
 {{ partial "page-header" . }}
 <div class="container">
-  <p class="site-summary">
-    This is a blog about software development, general tech stuff and some other completely random junk!
-  </p>
+  <div class="site-summary">
+    <p>
+      This is a blog about software development, general tech stuff and some other completely random junk!
+    </p>
+  </div>
 
   {{ range (.Paginate (first 4 (where .Data.Pages "Type" "blog"))).Pages }}
     {{ .Render "summary" }}

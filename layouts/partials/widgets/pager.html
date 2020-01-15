@@ -12,7 +12,7 @@
 
     {{ range $pag.Pagers }}
       {{ if eq . $pag }}
-      <span class="tag"><div class="page-item">{{ .PageNumber }}</div></span>
+        <span class="tag"><div class="page-item">{{ .PageNumber }}</div></span>
       {{ else }}
         <a href="{{ .URL }}" aria-label="{{ .PageNumber }}" class="tag"><div class="page-item">{{ .PageNumber }}</div></a>
       {{ end }}

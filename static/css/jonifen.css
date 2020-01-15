@@ -23,10 +23,16 @@ header {
   height: 3rem;
   width: 100%;
   line-height: 3rem;
-  /* border-bottom: 0.2rem var(--highlightColour) solid; */
-  position: relative;
   background-color: var(--backgroundColour);
+  opacity: 0.9;
   color: var(--textcolour);
+  position: fixed;
+  top: 0;
+  transition: top 0.4s;
+}
+
+header .container {
+  position: relative;
 }
 
 footer {
@@ -39,7 +45,7 @@ pre {
   border-radius: 3px;
   padding: 5px;
   font-size: 14px;
-  line-height: 1.5rem;
+  line-height: 1.3rem;
   background-color: var(--backgroundColour);
   overflow-x: auto;
   font-family: monospace;
@@ -146,6 +152,10 @@ ul.nav {
   transition: 0.5s;
 }
 
+.page-content {
+  margin-top: 3rem;
+}
+
 .page-item {
   display: inline-block;
   text-align: center;
@@ -167,11 +177,14 @@ ul.nav {
 }
 
 .site-summary {
+  padding: 1rem 1rem 0 1rem;
+}
+
+.site-summary p {
   background-color: var(--headerBackgroundColour);
   border: 1px dotted #333;
   border-radius: 5px;
   padding: 1rem;
-  margin: 1rem;
 }
 
 .post-header .container {
@@ -249,6 +262,10 @@ ul.nav {
     text-align: center;
     width: calc(100%/5);
     padding: 0.25rem 0;
+  }
+
+  .page-content {
+    margin-top: 6rem;
   }
 }
 
