@@ -1,7 +1,7 @@
 ---
 type: "blog"
 title: "Convert JavaScript Number to Number Array"
-description: ""
+description: "I had a number which I wanted converting into an array where each digit of the number was an item in the array. I tried a few different ways of doing this but always ended up with a string array which wasn't what I wanted."
 date: 2019-11-16T22:32:35Z
 author: "Jon"
 tags: ["programming", "javascript"]

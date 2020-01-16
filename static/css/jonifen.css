@@ -107,13 +107,18 @@ ul.nav {
   list-style: none;
   border-bottom: 2px solid var(--backgroundColour);
   display: inline-block;
-  padding: 0.25rem 1rem;
 }
 
 .nav-item a {
   display: inline-block;
   text-decoration: none;
   color: var(--textColour);
+  width: 100%;
+  padding: 0.25rem 0;
+}
+
+.nav-item a span {
+  padding: 0 1rem;
 }
 
 .nav-item:hover {
@@ -202,6 +207,9 @@ ul.nav {
 .post-summary .meta {
   text-align: right;
 }
+.post-summary small {
+  padding-left: 1rem;
+}
 
 .post-header .post-details {
   padding: 0.5rem 0 0 0;
@@ -251,21 +259,30 @@ ul.nav {
   header {
     height: 6rem;
   }
-
   header .container .nav {
     position: inherit;
     right: initial;
     width: 100%;
   }
+  header .heading {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
 
   .nav-item {
     text-align: center;
-    width: calc(100%/5);
+    width: calc(100%/4);
     padding: 0.25rem 0;
   }
 
   .page-content {
     margin-top: 6rem;
+  }
+
+  .post-summary small {
+    display: block;
+    padding: 0.5rem 0;
   }
 }
 

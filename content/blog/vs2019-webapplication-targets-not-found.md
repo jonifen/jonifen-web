@@ -4,6 +4,7 @@ title: "The imported project \".../Microsoft.WebApplication.targets\" was not fo
 date: 2019-06-17T21:59:33+01:00
 author: "Jon"
 tags: ["programming", "visualstudio"]
+description: "We have an existing web application project at work which was failing to open in Visual Studio 2019 with the following error..."
 ---
 
 We have an existing web application project at work which was failing to open in Visual Studio 2019 with the following error:

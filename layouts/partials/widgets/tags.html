@@ -1,5 +1,5 @@
 {{ if isset .Params "tags"}}
-	{{ range .Params.tags }}
-		<a href="{{ "/tags/" | absURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
-	{{ end }}
+  {{ range .Params.tags }}
+    <a href="{{ "/tags/" | absURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+  {{ end }}
 {{ end }}

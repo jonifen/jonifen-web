@@ -9,4 +9,7 @@
       {{ end }}
     {{ end }}
   </p>
+  <div>
+    {{ partial "widgets/tags" . }} <small>Reading time: ~{{ .ReadingTime }} min(s) ({{ .WordCount }} words)</small>
+  </div>
 </div>
