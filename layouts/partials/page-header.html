@@ -9,9 +9,11 @@
 
   <title>{{ .Title }} {{ if ne .Title .Site.Title }} 🔴 {{ .Site.Title }}{{ end }}</title>
 
-  <link rel="preload" href="/css/jonifen.css" as="style">
-  <link rel="preload" href="/js/header-bar.js" as="script">
-  <link rel="preload" href="/fonts/OpenSansNormal400.woff2" as="font">
+  {{ $css := resources.Get "css/jonifen.css" | resources.Minify }}
+  <link rel="preload" href="{{ $css.Permalink }}" as="style">
+  {{ $headerBar := resources.Get "js/header-bar.js" | resources.Minify }}
+  <link rel="preload" href="{{ $headerBar.Permalink }}" as="script">
+  <link rel="preload" href="/fonts/OpenSansNormal400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:title" content="{{ .Title }}">
@@ -25,7 +27,8 @@
   <meta property="og:image:secure_url" imageprop="image" content="https://jonifen.co.uk/images/og-avatar.png">
   <meta property="og:type" content="website">
 
-  <link rel="stylesheet" href="{{ "/css/jonifen.css" | absURL }}">
+  <link rel="stylesheet" href="{{ $css.Permalink }}">
+  <script src="{{ $headerBar.Permalink }}" async></script>
 </head>
 <body{{ with .Site.Params.theme }} class="{{ . }}"{{ end }}>
   {{ partial "header" . }}
