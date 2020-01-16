@@ -26,6 +26,7 @@ After some discussion, we came up with the following requirements:
 
 ## Toolset
 We used the following toolset:
+
 * Umbraco CMS (with a few plugins - details below)
 * Cake build
 * Powershell
