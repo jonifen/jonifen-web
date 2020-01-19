@@ -9,7 +9,7 @@ tags: [
   "testing",
   "jest"
 ]
-draft: "true"
+draft: true
 ---
 
 I've always been of the opinion that Code Katas are useful for pushing you to think of ways of solving common problems. They could make you (as the developer) look at things very differently to the way you would normally tackle things in your day to day job, because Katas are an opportunity to try something new, and I will usually aim to tackle a Kata using a different way every time I work on it.

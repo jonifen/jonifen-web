@@ -1,12 +1,9 @@
 ---
-author: "Jon"
-date: "2014-10-17T19:31:00Z"
-description: "A few weeks ago I installed the latest (at the time) version of Raspbian onto a 4Gb SD Card thinking that I'd see whether it was worthwhile updating my main SD card or not."
-tags: ["raspberrypi", "techsupport", "mouse"]
-title: "Laggy mouse on Raspberry Pi"
-type: "blog"
-
+title: "Raspberry Pi"
+type: "note"
 ---
+
+### Laggy mouse on Raspberry Pi (Model 1b)
 
 A few weeks ago I installed the latest (at the time) version of Raspbian onto a 4Gb SD Card thinking that I'd see whether it was worthwhile updating my main SD card or not.
 I gave it a quick run and while it seemed quicker, the mouse was quite laggy as if the cursor was moving through treacle. After a quick search, I came across a report on the RaspberryPi Github where someone else was having the exact same problem where the mouse was moving "in slow motion".

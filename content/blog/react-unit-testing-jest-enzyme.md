@@ -15,7 +15,7 @@ tags: [
 
 I've written loads of unit tests in my lifetime for C# and JavaScript, but never gotten around to writing any for testing the actual React components because there's always been something more pressing. Time to put that right and take the plunge.
 
-So I've picked up the project which resulted from the [React.js Continued... State!](/blog/post/2017/reactjsstate/) tutorial as a starter for ten as it already has a lot of the boilerplate stuff in place.
+So I've picked up the project which resulted from the [React.js Continued... State!](/blog/post/2017/react-js-state/) tutorial as a starter for ten as it already has a lot of the boilerplate stuff in place.
 
 I need to point out at this point that I've updated the npm packages so I'm using React 16 as well as the latest versions of other things:
  * babel-preset-es2015 has been deprecated and replaced with babel-preset-env so I've made the following change to the webpack.config.js in the rule I created for .js files:

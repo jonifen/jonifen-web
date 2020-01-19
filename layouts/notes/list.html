@@ -1,0 +1,22 @@
+{{ partial "page-header" . }}
+
+<div class="post-header">
+  <div class="container">
+    <div class="content">
+      <h2>Notes</h2>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "note") }}
+  <ul>
+    {{ range $paginator.Pages.ByTitle }}
+      <li><a href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }}DRAFT :: {{ end }}{{ end }}{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+  {{ partial "widgets/pager" . }}
+</div>
+
+
+{{ partial "footer" . }}

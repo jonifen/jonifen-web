@@ -12,7 +12,7 @@ date: "2017-02-13T22:36:58Z"
 
 ---
 
-It's time to continue on from my [React.js Revisited](/blog/post/2017/reactjsrevisited) post that I made a few days ago. This time we'll look at creating some components...
+It's time to continue on from my [React.js Revisited](/blog/post/2017/react-js-revisited) post that I made a few days ago. This time we'll look at creating some components...
 
 So what exactly is a "Component" in the context of React.js? In my head, I visualise React.js a little like Web UI Lego. The idea is you build your web application in blocks which are then built in a way which suits you and your application. A component is therefore like your Lego brick. They can be the bigger 4x2 stud ones, or those tiny 1 stud ones that cripple you when you stand on it with bare feet at night :'(
 

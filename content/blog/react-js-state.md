@@ -12,7 +12,7 @@ date: "2017-02-14T22:13:37Z"
 
 ---
 
-This time I'll be looking at State. What it is and how to use it... Like last time, we'll be continuing with the code from the [previous post](/blog/post/2017/reactjscontinued/).
+This time I'll be looking at State. What it is and how to use it... Like last time, we'll be continuing with the code from the [previous post](/blog/post/2017/react-js-continued-components/).
 
 Last time we created 2 components, `home` (which was a stateful component) and `header` (which was a stateless component). This time we're going to handle state within the `home` component by calling an API. As in previous posts, I'll be using the UK Police API as it doesn't require any authentication (or at least it doesn't at the moment, that could change!) which cuts down on fluff.
 

@@ -1,5 +1,13 @@
 {{ partial "page-header" . }}
 
+<div class="post-header">
+  <div class="container">
+    <div class="content">
+      <h2>Blog</h2>
+    </div>
+  </div>
+</div>
+
 <div class="container">
   {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
   {{ range $paginator.Pages }}

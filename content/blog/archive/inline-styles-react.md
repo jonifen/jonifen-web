@@ -5,7 +5,7 @@ description: "While working on the Griddle functionality at work, we needed to t
 tags: ["programming", "javascript", "reactjs"]
 title: "Inline styles with React"
 type: "blog"
-
+draft: true
 ---
 
 While working on the Griddle functionality at work, we needed to throw in some inline styling (just to test something out quickly). Unfortunately, with React, this isn't as straightforward as just throwing in a style attribute with a few values.

@@ -1,12 +1,12 @@
 [0]
-	Name = "Home"
-	Title = "Home"
-	URL = "/"
-
-[1]
 	Name = "Blog"
 	Title = "Blog"
 	URL = "/blog/"
+
+[1]
+  Name = "Notes"
+  Title = "Notes"
+  URL = "/notes/"
 
 [2]
   Name = "Projects"

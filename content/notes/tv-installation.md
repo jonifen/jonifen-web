@@ -1,15 +1,9 @@
 ---
-date: "2017-07-15T23:36:41+01:00"
-title: "Home TV Aerial Install"
-type: "blog"
-author: "Jon"
-description: "I'm not a big DIY-er, but I do have a go from time to time. After having some home improvements work done on our house which included removing the chimney throughout the house, we're in need of a TV aerial."
-tags: [
-  "home",
-  "tv",
-	"diy"
-]
+title: "TV Installation"
+type: "note"
 ---
+
+### TV Installation (DIY)
 
 I'm not a big DIY-er, but I do have a go from time to time. After having some home improvements work done on our house which included removing the chimney throughout the house, we're in need of a TV aerial. We have Sky as our main TV supply on the main TV, but in the bedrooms, we relied on the aerial, so I needed to find a solution fairly soon.
 
@@ -21,7 +15,7 @@ I'm going to start with the aerial that was on the roof and see how I get on. I 
 
 I'll draw up some diagrams as I go along (I'll leave them along with other diagrams I've created for the next owner if/when we decide to move in the future) and I'll put some of them on here as they may help people in my position.
 
-## Update 31/07/17
+#### Update 31/07/17
 
 I started by needing to mount the aerial in the loft. The previous bracket wasn't suitable as it is intended for mounting on the corner of a chimney stack and I needed one that mounted on a flat base. I started with the Labgear mounting kit from Screwfix (code 34394), but then spotted a similar product at Wickes (code 205496) for just £2 on clearance! Dropped by the local store yesterday and picked it up.
 
@@ -34,7 +28,7 @@ While I know where the local mast is (in the autumn I can see it from my son's b
 
 *Next steps:* I need to obtain an aerial splitter which I can pick up from Toolstation (code 16238) or Screwfix (code 69265) - A 4-way splitter will be fine for now, but I may need to expand on that later on in the future. I'll need a load of F-type plugs at this point too.
 
-## Update 14/09/17
+#### Update 14/09/17
 
 I was given a 2-way splitter for free to get the front bedroom linked up the aerial too until I get the 4-way one myself. I went into the loft and ran another coax wire from the front bedroom across to the point where the central place will be and installed an F-Plug connector. Then I cut the existing aerial run to the back bedroom and installed F-Plug connectors on them too.
 

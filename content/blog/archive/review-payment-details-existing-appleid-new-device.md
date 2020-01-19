@@ -5,7 +5,7 @@ description: "My daughter has this week got a new iPhone 5C and has been trying 
 tags: ["mobilephones", "apple", "techsupport"]
 title: "Must review payment details when using an existing Apple Id on a new device"
 type: "blog"
-
+draft: true
 ---
 
 My daughter has this week got a new iPhone 5C and has been trying to download apps onto it. However, when she logs into her Apple ID on the 5C, she's prompted to review her payment details. In the list that appears, there is no "None" option available, and she doesn't want to enter her card details (for which I don't blame her - I haven't entered mine on my Apple ID either!)
