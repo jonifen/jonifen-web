@@ -5,7 +5,7 @@ description: "iPhone requires the Apple Id password to be entered on every free 
 tags: ["techsupport", "apple", "mobilephones"]
 title: "iPhone requires Apple Id password on free downloads"
 type: "blog"
-
+draft: true
 ---
 
 For a while my son's iPhone 5 has prompted for my Apple Id password everytime he tries to download a free app, or when updating his existing apps. It hasn't always done this, so something must have changed. I had a look around online, comparing advice to the settings on his phone, and all seemed fine, but it still asked for this password.

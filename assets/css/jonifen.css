@@ -1,5 +1,6 @@
 :root {
   --backgroundColour: #263959;
+  --backgroundCodeColour: #3d5174;
   --textColour: #e4e7ec;
   --highlightColour: #6d819c;
   --linkColour: #55967e;
@@ -46,14 +47,20 @@ pre {
   padding: 5px;
   font-size: 14px;
   line-height: 1.3rem;
-  background-color: var(--backgroundColour);
+  background-color: var(--backgroundCodeColour);
   overflow-x: auto;
   font-family: monospace;
+}
+pre code {
+  padding: 0;
+  border: none;
 }
 
 code {
   font-family: monospace;
-  background-color: var(--backgroundColour);
+  background-color: var(--backgroundCodeColour);
+  padding: 3px;
+  border: 1px var(--highlightColour) solid;
 }
 
 h2 {
