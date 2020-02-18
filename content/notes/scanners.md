@@ -28,3 +28,5 @@ I'll tweak the above to what worked for me:
 The only problem I had was with the ButtonKey software - I had to run it as Administrator for it to save the settings (I suspect it's the classic issue where legacy programs are written to save to the registry in HKEY_LOCAL_MACHINE and non-Administrator accounts can't write to this location in Windows Vista and newer). It does work fine through Photoshop though, and the images are scanning in just fine!
 
 The issue I have now is a lack of time... it's a slow process to scan the slides in one by one!
+
+-----

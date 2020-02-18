@@ -11,6 +11,8 @@ git update-index --chmod=+x your_bash_script.sh
 
 The git documentation provides more information on the `update-index` command here: https://www.git-scm.com/docs/git-update-index
 
+-----
+
 ## Revert without commit
 
 A standard `git revert` will create a new commit with the reverted content. To revert without creating that commit:
@@ -31,6 +33,8 @@ git revert -m 1 {commit-id} --no-commit
 
 The `-m` identifies that it's a merge commit that you're reverting, and the number `1` indicates that you want to revert back to the tree of the first parent prior to the merge.
 
+-----
+
 ## Revert a range of commits
 
 ```
@@ -40,3 +44,5 @@ i.e.
 
 git revert abcdef01^..abcdef09
 ```
+
+-----
