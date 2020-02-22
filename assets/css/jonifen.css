@@ -1,12 +1,12 @@
 :root {
-  --backgroundColour: #263959;
-  --backgroundCodeColour: #3d5174;
-  --textColour: #e4e7ec;
-  --highlightColour: #6d819c;
-  --linkColour: #55967e;
-  --linkHoverColour: #77b89f;
-  --headerBackgroundColour: #6d819c;
-  --headerTextColour: #e4e7ec;
+  --backgroundColour: #556270;
+  --backgroundCodeColour: #647a91;
+  --textColour: #f5f5f5;
+  --highlightColour: #c44d58;
+  --lowlightColour: #2e353d;
+  --linkColour: #c7f464;
+  --linkHoverColour: #d5f888;
+  --headerBackgroundColour: #647a91;
 }
 
 body {
@@ -157,8 +157,7 @@ ul.nav {
 
 
 .tag {
-  border: var(--highlightColour) 1px solid;
-  background-color: var(--headerBackgroundColour);
+  border: var(--lowlightColour) 1px solid;
   color: var(--textColour);
   border-radius: 5px;
   font-size: 12px;
@@ -168,7 +167,7 @@ ul.nav {
   min-width: 20px;
 }
 .tag:hover {
-  background-color: var(--backgroundColour);
+  background-color: var(--highlightColour);
   color: var(--textColour);
   text-decoration: none;
   transition: 0.5s;
@@ -199,14 +198,13 @@ ul.nav {
 }
 
 .site-summary {
-  padding: 1rem 1rem 0 1rem;
+  background-color: var(--headerBackgroundColour);
+  margin: 3.5rem 0 0 0;
 }
 
 .site-summary p {
-  background-color: var(--headerBackgroundColour);
-  border: 1px dotted #333;
-  border-radius: 5px;
-  padding: 1rem;
+  padding: 3rem;
+  margin: 0;
 }
 
 .post-header .container {
@@ -309,78 +307,3 @@ ul.nav {
   }
 }
 
-@font-face {
-  font-family: 'Alegreya Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Alegreya Sans Regular'), local('AlegreyaSans-Regular'), url(/fonts/AlegreyaSansNormal400.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(/fonts/OpenSansNormal400.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-/* icomoon */
-@font-face {
-  font-family: 'icomoon';
-  src:  url('/fonts/icomoon.eot?2hic5u');
-  src:  url('/fonts/icomoon.eot?2hic5u#iefix') format('embedded-opentype'),
-    url('/fonts/icomoon.ttf?2hic5u') format('truetype'),
-    url('/fonts/icomoon.woff?2hic5u') format('woff'),
-    url('/fonts/icomoon.svg?2hic5u#icomoon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  padding: 0 0.25rem;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-mail2:before {
-  content: "\ea84";
-}
-.icon-twitter:before {
-  content: "\ea96";
-}
-.icon-youtube:before {
-  content: "\ea9d";
-}
-.icon-vimeo:before {
-  content: "\eaa0";
-}
-.icon-github:before {
-  content: "\eab0";
-}
-.icon-npm:before {
-  content: "\eab1";
-}
-.icon-reddit:before {
-  content: "\eac6";
-}
-.icon-linkedin2:before {
-  content: "\eaca";
-}
-.icon-stackoverflow:before {
-  content: "\ead0";
-}
-/* /icomoon */

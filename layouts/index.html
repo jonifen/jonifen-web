@@ -1,13 +1,15 @@
 {{ partial "page-header" . }}
-<div class="container">
-  <div class="site-summary">
+<div class="site-summary">
+  <div class="container">
     <p>
       This is a blog about software development, general tech stuff and some other completely random junk!
     </p>
   </div>
+</div>
 
+<div class="container">
   {{ range (.Paginate (first 4 (where .Data.Pages "Type" "blog"))).Pages }}
-    {{ .Render "summary" }}
+    {{ .Render "homepage-summary" }}
   {{ end }}
 
   <div class="link-panel text-right">
