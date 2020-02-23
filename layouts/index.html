@@ -2,18 +2,22 @@
 <div class="site-summary">
   <div class="container">
     <p>
-      This is a blog about software development, general tech stuff and some other completely random junk!
+      This is a blog about software development, general tech stuff and some completely random junk!
     </p>
   </div>
 </div>
 
 <div class="container">
-  {{ range (.Paginate (first 4 (where .Data.Pages "Type" "blog"))).Pages }}
+  <div class="section-header">
+    <h2>Most recent blog posts</h2>
+  </div>
+
+  {{ range first 3 (where site.RegularPages "Type" "in" site.Params.indexSections).ByDate.Reverse }}
     {{ .Render "homepage-summary" }}
   {{ end }}
 
   <div class="link-panel text-right">
-    <a href="/blog/">All Posts &gt;</a>
+    <a class="button primary" href="/blog/">All blog posts &gt;</a>
   </div>
 </div>
 

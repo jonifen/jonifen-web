@@ -1,16 +1,15 @@
 ---
-date: "2017-12-07T22:34:37Z"
+date: 2017-12-07T22:34:37Z
 title: "React.js Unit Testing with Jest and Enzyme"
 type: "blog"
 author: "Jon"
 description: "I've written loads of unit tests in my lifetime for C# and JavaScript, but never gotten around to writing any for testing the actual React components because there's always been something more pressing. Time to put that right and take the plunge."
 tags: [
-    "programming",
-    "javascript",
-    "reactjs",
-    "testing"
+  "programming",
+  "javascript",
+  "reactjs",
+  "testing"
 ]
-
 ---
 
 I've written loads of unit tests in my lifetime for C# and JavaScript, but never gotten around to writing any for testing the actual React components because there's always been something more pressing. Time to put that right and take the plunge.
@@ -18,23 +17,30 @@ I've written loads of unit tests in my lifetime for C# and JavaScript, but never
 So I've picked up the project which resulted from the [React.js Continued... State!](/blog/post/2017/react-js-state/) tutorial as a starter for ten as it already has a lot of the boilerplate stuff in place.
 
 I need to point out at this point that I've updated the npm packages so I'm using React 16 as well as the latest versions of other things:
+
  * babel-preset-es2015 has been deprecated and replaced with babel-preset-env so I've made the following change to the webpack.config.js in the rule I created for .js files:
 
-    options: {
-        presets: ["react", "env"]
-    }
+```js
+options: {
+  presets: ["react", "env"]
+}
+```
 
 So now that's done, I need to install the required packages:
 
-    npm install --save-dev jest enzyme enzyme-adapter-react-16
+```
+npm install --save-dev jest enzyme enzyme-adapter-react-16
+```
 
 These packages are for [Jest](https://facebook.github.io/jest/), [Enzyme](https://github.com/airbnb/enzyme) and the Adapter so Enzyme can support React 16 - notice that I mentioned I upgraded the npm packages earlier? ;)
 
 As Jest and Enzyme don't use Webpack to get the Babel options, I have to create a .babelrc file in the root of the project folder, which will contain the following:
 
-    {
-        "presets": ["react", "env"]
-    }
+```js
+{
+  "presets": ["react", "env"]
+}
+```
 
 to enable support for React and the "env" plugin (that superceded the es2015 plugin).
 
@@ -42,29 +48,31 @@ So with all that set up, let's create our first test!
 
 Create a directory in the project root called "\_\_tests\_\_" (yes, this is a double underscore before and after) and inside there, create a new file called "comments.js" and inside there, dump the following content:
 
-    import React from "react"
-    import Enzyme from "enzyme"
-    import Adapter from "enzyme-adapter-react-16"
-    import { mount } from "enzyme"
-    import Comments from "./../components/comments.jsx"
+```js
+import React from "react"
+import Enzyme from "enzyme"
+import Adapter from "enzyme-adapter-react-16"
+import { mount } from "enzyme"
+import Comments from "./../components/comments.jsx"
 
-    Enzyme.configure({ adapter: new Adapter() })
+Enzyme.configure({ adapter: new Adapter() })
 
-    describe("Comments", () => {
-        const props
+describe("Comments", () => {
+  const props
 
-        beforeEach(() => {
-            props = {
-                heading: "Previous comments:"
-            }
-        })
+  beforeEach(() => {
+    props = {
+      heading: "Previous comments:"
+    }
+  })
 
-        //--- All tests go below this line ---
-        it("always renders a div", () => {
-            const divs = mount(<Comments {...props} />).find("div")
-            expect(divs.length).toBeGreaterThan(0)
-        })
-    })
+  //--- All tests go below this line ---
+  it("always renders a div", () => {
+    const divs = mount(<Comments {...props} />).find("div")
+    expect(divs.length).toBeGreaterThan(0)
+  })
+})
+```
 
 Ok, so let me explain a little about what this is trying to do.
 

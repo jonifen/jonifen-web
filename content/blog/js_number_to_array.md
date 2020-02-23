@@ -11,7 +11,7 @@ I had a number which I wanted converting into an array where each digit of the n
 
 To get around this, you can use some of the new features introduced in ES6 as follows:
 
-```
+```js
 const theNumber = 432375;
 const output = Array.from(theNumber.toString()).map(Number);
 console.log(output); // [4, 3, 2, 3, 7, 5]

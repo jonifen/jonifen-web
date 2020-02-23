@@ -4,6 +4,9 @@
   <div class="container">
     <div class="content">
       <h2>Notes</h2>
+      <p class="no-bottom-margin">
+        The items below link to various notes that I've made for reference which aren't quite enough to stand in its own blog post.
+      </p>
     </div>
   </div>
 </div>
@@ -11,11 +14,10 @@
 <div class="container">
   {{ $paginator := .Paginate (where .Data.Pages "Type" "note") }}
   <ul>
-    {{ range $paginator.Pages.ByTitle }}
+    {{ range where site.RegularPages "Type" "note" }}
       <li><a href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }}DRAFT :: {{ end }}{{ end }}{{ .Title }}</a></li>
     {{ end }}
   </ul>
-  {{ partial "widgets/pager" . }}
 </div>
 
 

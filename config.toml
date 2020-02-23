@@ -1,10 +1,25 @@
 baseUrl = "/"
 languageCode = "en-gb"
-title = "Jonifen 👨‍💻"
+title = "Jon Cain 👨‍💻 (jonifen.co.uk)"
 copyright = "(c) 2020 Jon Cain"
 
 [taxonomies]
 	tag = "tags"
 
 [params]
+  indexSections = ["blog"]
 	footline = "[jonifen.co.uk](https://jonifen.co.uk) - Created using [Hugo](https://gohugo.io)"
+  description = "This is a blog about software development, general tech stuff and some completely random junk!"
+  images = ["images/og-avatar.png"]
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 2

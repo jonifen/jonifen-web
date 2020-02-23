@@ -52,7 +52,7 @@ footer {
 }
 
 pre {
-  border: 1px solid var(--highlightColour);
+  border: 1px var(--lowlightColour) solid;
   border-radius: 3px;
   padding: 5px;
   font-size: 14px;
@@ -70,7 +70,11 @@ code {
   font-family: monospace;
   background-color: var(--backgroundCodeColour);
   padding: 3px;
-  border: 1px var(--highlightColour) solid;
+  border: 1px var(--lowlightColour) solid;
+}
+
+.highlight code {
+  background-color: initial;
 }
 
 h2 {
@@ -155,6 +159,23 @@ ul.nav {
   line-height: 1.75rem;
 }
 
+.button {
+  border: var(--lowlightColour) 1px solid;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  text-align: center;
+}
+  .button:hover {
+    text-decoration: none;
+  }
+  .button.primary {
+    background-color: var(--linkColour);
+    color: var(--lowlightColour);
+  }
+    .button.primary:hover {
+      background-color: var(--linkHoverColour);
+    }
 
 .tag {
   border: var(--lowlightColour) 1px solid;
@@ -205,6 +226,10 @@ ul.nav {
 .site-summary p {
   padding: 3rem;
   margin: 0;
+}
+
+.section-header {
+  padding: 1rem 0 0 1rem;
 }
 
 .post-header .container {
@@ -258,6 +283,10 @@ ul.nav {
 
 .text-right {
   text-align: right;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1200px) {

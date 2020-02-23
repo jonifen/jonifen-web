@@ -6,8 +6,9 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {{ hugo.Generator }}
 
-  <title>{{ .Title }} {{ if ne .Title .Site.Title }} 🔴 {{ .Site.Title }}{{ end }}</title>
+  <title>{{ .Title }} {{ if ne .Title .Site.Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 
   {{ $css := resources.Get "css/jonifen.css" | resources.Minify }}
   {{ $fonts := resources.Get "css/jonifen-fonts.css" | resources.Minify }}
