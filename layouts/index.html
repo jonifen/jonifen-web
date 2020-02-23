@@ -12,7 +12,7 @@
     <h2>Most recent blog posts</h2>
   </div>
 
-  {{ range first 3 (where site.RegularPages "Type" "in" site.Params.indexSections).ByDate.Reverse }}
+  {{ range first 5 (where site.RegularPages "Type" "in" site.Params.indexSections).ByDate.Reverse }}
     {{ .Render "homepage-summary" }}
   {{ end }}
 

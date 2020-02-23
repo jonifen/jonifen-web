@@ -1,8 +1,5 @@
 <div class="post-summary">
   {{ .Render "summary-header" }}
-  <p>
-    {{ .Description }}
-  </p>
   <div>
     {{ partial "widgets/tags" . }} <small>Reading time: ~{{ .ReadingTime }} min(s) ({{ .WordCount }} words)</small>
   </div>
