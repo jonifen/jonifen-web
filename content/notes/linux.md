@@ -46,6 +46,16 @@ reboot
 
 -----
 
+## Installing KDE and tools
+
+`plasma-desktop` (The KDE desktop - seems to be referenced as `plasma` nowadays)
+`plasma-nm` (NetworkManager for plasma/KDE - enable it through `sudo systemctl enable NetworkManager`)
+`kde-applications` (gives you a bunch of KDE apps, konsole etc.)
+`kgpg` (for encrypting the KDE wallet for wifi keys etc.)
+`powerdevil` (configuring power settings and/or power savings)
+
+-----
+
 ## UFW (Uncomplicated FireWall)
 
 This is a pretty simple to configure firewall on Linux (I guess that's where the `Uncomplicated` part of the name came from!)
