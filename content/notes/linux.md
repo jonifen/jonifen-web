@@ -87,3 +87,49 @@ Available applications:
   OpenSSH
 ```
 
+Other commands:
+
+| Command | Description |
+|---|---|
+| `allow http` | Grant http access over port 80 |
+| `allow 80/tcp` | Same as above, but very explicit to the port and protocol |
+| `allow https` | Grants https access over port 443 |
+| `allow 8000:8100/tcp` | Grant access on all ports between the specified range |
+| `allow from {ip}` | Grant access to all ports from a specified ip |
+| `allow from {ip} to any port 8000` | Grants access from the specific IP to port 8000 |
+| `allow from 192.168.10.0/24 to any port 8000` | Grants access from any IP in the specified subnet to port 8000 |
+| `deny from {(ip|subnet range)}` | Blocks access to any port from the specified IP or subnet range |
+
+**Note:** All `allow` rules can be `deny` rules by simply changing the wording.
+
+Ok, so I'd like to delete some rules now... how would I do that?
+
+Delete the rule by specifying what you added:
+
+```
+sudo ufw delete allow ssh
+```
+
+Or, you can list all the rules with associated IDs by getting the numbered status:
+
+```
+$ sudo ufw status numbered
+Status: active
+
+     To                         Action      From
+     --                         ------      ----
+[ 1] 22/tcp                     ALLOW IN    Anywhere
+[ 2] 22/tcp (v6)                ALLOW IN    Anywhere (v6)
+```
+
+and then deleting the one you no longer want:
+
+```
+sudo ufw delete 2
+```
+
+Finally, want to disable UFW and reset it to defaults?
+
+```
+sudo ufw reset
+```
