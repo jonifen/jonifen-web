@@ -46,3 +46,44 @@ reboot
 
 -----
 
+## UFW (Uncomplicated FireWall)
+
+This is a pretty simple to configure firewall on Linux (I guess that's where the `Uncomplicated` part of the name came from!)
+
+It is typically installed on Ubuntu Server by default, but if not, you can install it through Aptitude:
+
+```
+sudo apt install ufw
+```
+
+Once you've got it installed, you can check the status...
+
+```
+$ sudo ufw status verbose
+Status: inactive
+```
+
+And after this, making sure that SSH access is allowed...
+
+```
+$ sudo ufw allow ssh
+Rules updated
+Rules updated (v6)
+```
+
+you can enable it...
+
+```
+$ sudo ufw enable
+Command may disrupt existing ssh connections. Proceed with operation (y|n)? y
+Firewall is active and enabled on system startup
+```
+
+At any time you can see what apps are available to grant/block through the firewall (I don't have many on mine so far!):
+
+```
+$ sudo ufw app list
+Available applications:
+  OpenSSH
+```
+
