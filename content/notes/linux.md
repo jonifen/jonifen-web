@@ -143,3 +143,47 @@ Finally, want to disable UFW and reset it to defaults?
 ```
 sudo ufw reset
 ```
+
+-----
+
+## MDADM (Mounting RAID devices)
+
+This was from mounting the drive from a single disk Zyxel NSA310 NAS.
+
+It appears the disk is actually in its own RAID array. Never seen this before!
+
+Advice online suggested doing the following:
+
+```
+$ sudo mdadm --assemble --force /dev/md0 /dev/sdc2
+mdadm: /dev/sdc2 is busy - skipping
+```
+
+So I had to figure out what was making the disk busy...
+
+```
+$ cat /proc/mdstat
+Personalities : [linear] [multipath] [raid0] [raid1] [raid6] [raid5] [raid4] [raid10]
+md127 : active linear sdc2[0]
+      487868928 blocks super 1.2 0k rounding
+
+unused devices: <none>
+```
+
+Ok, so it's already configured and ready to go, so there must be a file in `/dev/` for it...
+
+```
+$ ls /dev/md*
+/dev/md127
+
+/dev/md:
+nsa310:0
+```
+
+Yup, there is one! So I just have to mount it now...
+
+```
+$ sudo mount /dev/md127 /mnt/nas
+```
+
+Works a treat!
