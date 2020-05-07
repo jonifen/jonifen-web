@@ -19,6 +19,17 @@ At home, like most families, we have the board game Cluedo. As most families hav
 
 My end goal is for this to learn from the accusations being made and make suggestions to the player as to what the winning accusation could be.
 
+
+#### GameBrowser
+
+[Github](https://github.com/jonifen/GameBrowser/) &middot; Demo coming soon
+
+This is a browser tool to fetch details about a gaming server. Initially it supports Quake III Arena, but could easily be enhanced to support other games too. It will return the list of players with their scores, and then other details such as mod and map etc.
+
+It was originally written in a VB6 desktop application, ported to a C# WinForms application and then rewritten during the COVID-19 Lockdown to become a web application with an API.
+
+My end goal is to run this in a Docker container on a Raspberry Pi which is currently running a Quake III Arena game server (also in a Docker container).
+
 ---
 
 ### Fun stuff
