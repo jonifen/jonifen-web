@@ -31,7 +31,7 @@ mkdir /mnt/root/home
 mount /dev/sda1 /mnt/root
 mount /dev/sda3 /mnt/root/home
 
-chroot /mnt/root
+arch-chroot /mnt/root
 ```
 
 This gives me the `zsh` shell logged in as root into my current Arch installation so I can do any diagnosis.
@@ -39,8 +39,7 @@ Once I'm finished, I exit my installation, unmount and reboot.
 
 ```
 exit
-umount /mnt/root/home
-umount /mnt/root
+umount -R /mnt
 reboot
 ```
 
@@ -49,9 +48,13 @@ reboot
 ## Installing KDE and tools
 
 `plasma-desktop` (The KDE desktop - seems to be referenced as `plasma` nowadays)
+
 `plasma-nm` (NetworkManager for plasma/KDE - enable it through `sudo systemctl enable NetworkManager`)
+
 `kde-applications` (gives you a bunch of KDE apps, konsole etc.)
+
 `kgpg` (for encrypting the KDE wallet for wifi keys etc.)
+
 `powerdevil` (configuring power settings and/or power savings)
 
 -----
