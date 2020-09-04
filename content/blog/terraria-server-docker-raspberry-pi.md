@@ -4,7 +4,7 @@ title: "Creating a Terraria server in Docker on a Raspberry Pi 4B"
 description: "After much difficulty, I've finally figured out how to get a Terraria server running in Docker on my Raspberry Pi 4B..."
 date: 2020-06-28T18:20:01+01:00
 author: "Jon"
-tags: ["blog", "gaming"]
+tags: ["gaming", "docker", "infrastructure"]
 draft: false
 ---
 
