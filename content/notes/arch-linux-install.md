@@ -59,14 +59,19 @@ mkswap /dev/sda2
 ## Get ready to install (mount drives)
 
 ```
-mkdir /mnt/boot
-mkdir /mnt/home
 mount /dev/sda3 /mnt
-mount /dev/sda1 /boot
+mkdir /mnt/home
 mount /dev/sda4 /home
 ```
 
-and enable the swap partition
+and if you created a separate `/boot` partition
+
+```
+mkdir /mnt/boot
+mount /dev/sda1 /boot
+```
+
+and finally enable the `swap` partition
 
 ```
 swapon /dev/sda2
