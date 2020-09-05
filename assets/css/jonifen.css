@@ -120,6 +120,11 @@ header .container .nav {
   right: 0;
 }
 
+hr {
+  border: 0;
+  border-bottom: 1px dashed var(--highlightColour);
+}
+
 small {
   font-size: 0.75rem;
 }

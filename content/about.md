@@ -3,7 +3,6 @@ author: "Jon"
 type: "sitecontent"
 date: 2015-11-17T23:14:01+01:00
 title: "About"
-description: "Software Developer in C#, JavaScript. Husband and Dad of 4. Old before my time, but still a child at heart."
 ---
 
 I'm a Software Developer using C#, JavaScript (including React and Redux). As penance for a past life, I have a lot of experience with VB6 too :)
@@ -20,4 +19,4 @@ I try to help out on StackOverflow when I get some free time which is pretty dif
 
 Otherwise, I like to play video games. Nowadays, this is mainly on the PS4 and usually on the latest FIFA or Gran Turismo, although I did have a misspent youth on Quake 2, 3, Unreal Tournament and CounterStrike.
 
-Want to get in touch? [Contact me](/contact)
+Want to get in touch? The options are at the bottom of every page :)

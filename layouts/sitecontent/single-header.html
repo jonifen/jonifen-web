@@ -2,9 +2,11 @@
   <div class="container">
     <div class="content">
       <h2>{{ .Title }}</h2>
+      {{ if .Description }}
       <p class="no-bottom-margin">
         {{ .Description }}
       </p>
+      {{ end }}
     </div>
   </div>
 </div>
