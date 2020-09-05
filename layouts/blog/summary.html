@@ -1,5 +1,6 @@
 <div class="post-summary">
   {{ .Render "summary-header" }}
+  {{ partial "widgets/tags" . }}
   <p>
     {{ if .IsPage }}
       {{ if .Description }}
@@ -8,8 +9,6 @@
         {{ .Summary }}
       {{ end }}
     {{ end }}
+    (<a href="{{ .Permalink }}">Continue reading</a>)
   </p>
-  <div>
-    {{ partial "widgets/tags" . }} <small>Reading time: ~{{ .ReadingTime }} min(s) ({{ .WordCount }} words)</small>
-  </div>
 </div>

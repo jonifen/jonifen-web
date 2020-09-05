@@ -19,17 +19,13 @@ Figuring out that the issue could surround the `vCurrent` part of the path, I di
 
 ```
 The MSBuild folder has indeed been renamed to "Current", however there are still sub-folders in there that are using the old numeric convention.
-
 For example, this one:
-
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VisualStudio\v16.0
 
 Any build scripts that refer to this folder using ...\VisualStudio\v$(MSBuildToolsVersion) will no longer work.
-
 Shouldnt the sub-folders all follow the same "Current" convention?
 
 So above folder would become:
-
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VisualStudio\vCurrent
 
 In the meantime, it can be worked around (but this is not very nice) by replacing $(MSBuildToolsVersion) with $(MSBuildAssemblyVersion) in build scripts.

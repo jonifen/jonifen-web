@@ -2,11 +2,8 @@
 title: "Projects"
 type: "sitecontent"
 author: "Jon"
+description: "I've got a few bits and pieces that I've created which is available for all to use. Some are pretty nonsense things, intended for fun. Some are more serious and have taken some time to work on (and may still be in progress)."
 date: 2019-06-21T22:43:01+01:00
----
-
-I've got a few bits and pieces that I've created which is available for all to use. Some are pretty nonsense things, intended for fun. Some are more serious and have taken some time to work on (and may still be in progress).
-
 ---
 
 ### Side projects

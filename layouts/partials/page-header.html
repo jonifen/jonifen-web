@@ -14,8 +14,6 @@
   {{ $fonts := resources.Get "css/jonifen-fonts.css" | resources.Minify }}
   <link rel="preload" href="{{ $css.Permalink }}" as="style">
   <link rel="preload" href="{{ $fonts.Permalink }}" as="style">
-  {{ $headerBar := resources.Get "js/header-bar.js" | resources.Minify }}
-  <link rel="preload" href="{{ $headerBar.Permalink }}" as="script">
   <link rel="preload" href="/fonts/OpenSansNormal400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
   <link rel="preload" href="/fonts/icomoon.woff" as="font" type="font/woff" crossorigin="anonymous">
 
@@ -33,7 +31,6 @@
 
   <link rel="stylesheet" href="{{ $css.Permalink }}">
   <link rel="stylesheet" href="{{ $fonts.Permalink }}">
-  <script src="{{ $headerBar.Permalink }}" async></script>
 </head>
 <body{{ with .Site.Params.theme }} class="{{ . }}"{{ end }}>
   {{ partial "header" . }}

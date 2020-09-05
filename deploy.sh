@@ -9,6 +9,10 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 hugo --minify # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 cd public
+
+# Checkout master branch to avoid attempting to push to detatched HEAD
+git checkout master
+
 git add .
 
 # Commit changes.

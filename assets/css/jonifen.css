@@ -1,19 +1,21 @@
 :root {
-  --backgroundColour: #556270;
-  --backgroundCodeColour: #647a91;
-  --textColour: #f5f5f5;
-  --highlightColour: #c44d58;
+  --backgroundColour: #1f2833;
+  --backgroundCodeColour: #2a3646;
+  --textColour: #c5c6c7;
+  --highlightColour: #45a29e;
+  --highlightRedColour: #c44d58;
   --lowlightColour: #2e353d;
-  --linkColour: #c7f464;
-  --linkHoverColour: #d5f888;
-  --headerBackgroundColour: #647a91;
+  --darklightColour: #0b0c10;
+  --linkColour: #66fcf1;
+  --linkHoverColour: #91dfd9;
+  --headerBackgroundColour: #3a4757;
 }
 
 body {
   margin: 0;
   align-content: center;
-  font-family: "Open Sans", Helvetica, sans-serif;
-  font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.125rem;
   overflow-x: hidden;
   background-color: var(--backgroundColour);
   color: var(--textColour);
@@ -27,9 +29,7 @@ header {
   background-color: var(--backgroundColour);
   opacity: 0.9;
   color: var(--textcolour);
-  position: fixed;
-  top: 0;
-  transition: top 0.4s;
+  font-family: "Aleo", serif;
 }
 
 header .container {
@@ -39,6 +39,7 @@ header .container {
 footer {
   text-align: center;
   padding: 1rem;
+  font-family: "Aleo", serif;
 }
 
 .footer-icons {
@@ -55,11 +56,11 @@ pre {
   border: 1px var(--lowlightColour) solid;
   border-radius: 3px;
   padding: 5px;
-  font-size: 14px;
-  line-height: 1.3rem;
+  font-size: 15px;
+  line-height: 1.4rem;
   background-color: var(--backgroundCodeColour);
   overflow-x: auto;
-  font-family: monospace;
+  font-family: "Oxygen Mono", monospace;
 }
 pre code {
   padding: 0;
@@ -67,10 +68,12 @@ pre code {
 }
 
 code {
-  font-family: monospace;
+  font-family: "Oxygen Mono", monospace;
   background-color: var(--backgroundCodeColour);
-  padding: 3px;
   border: 1px var(--lowlightColour) solid;
+}
+p code {
+  font-size: 14px;
 }
 
 .highlight code {
@@ -79,6 +82,19 @@ code {
 
 h2 {
   margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+}
+
+h3 {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+}
+
+p.header-title {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.3rem;
 }
 
 a { text-decoration: none; color: var(--linkColour); }
@@ -92,7 +108,7 @@ header .heading {
 }
 
 header .heading a {
-  color: var(--textColour);
+  color: var(--linkColour);
   text-decoration: none;
 }
 
@@ -102,6 +118,10 @@ header .container {
 header .container .nav {
   position: absolute;
   right: 0;
+}
+
+small {
+  font-size: 0.75rem;
 }
 
 table {
@@ -159,6 +179,17 @@ ul.nav {
   line-height: 1.75rem;
 }
 
+.main-content {
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 1rem;
+}
+.main-content p:first-of-type {
+  margin-top: 0;
+}
+.main-content p:last-of-type {
+  margin-bottom: 0;
+}
+
 .button {
   border: var(--lowlightColour) 1px solid;
   border-radius: 5px;
@@ -194,10 +225,6 @@ ul.nav {
   transition: 0.5s;
 }
 
-.page-content {
-  margin-top: 3rem;
-}
-
 .page-item {
   display: inline-block;
   text-align: center;
@@ -220,9 +247,7 @@ ul.nav {
 
 .site-summary {
   background-color: var(--headerBackgroundColour);
-  margin: 3.5rem 0 0 0;
 }
-
 .site-summary p {
   padding: 3rem;
   margin: 0;
@@ -244,25 +269,20 @@ ul.nav {
   padding: 1rem;
   border-bottom: 1px dashed var(--highlightColour);
 }
-.post-summary .meta {
-  text-align: right;
+.post-summary p {
+  font-family: "Source Sans Pro", sans-serif;
 }
-.post-summary small {
-  padding-left: 1rem;
+
+.monospace {
+  font-family: "Oxygen Mono", monospace;
 }
 
 .post-header .post-details {
   padding: 0.5rem 0 0 0;
 }
-.post-header .post-meta-details {
-  padding: 0.5rem 0 0 0;
-}
 .post-header .date {
   display: inline-block;
   text-align: left;
-}
-.post-header .tags {
-  float: right;
 }
 
 .tag.disabled {
@@ -291,13 +311,19 @@ ul.nav {
 
 @media screen and (max-width: 1200px) {
   .container {
+    width: 55rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
     width: 50rem;
   }
 }
 
 @media screen and (max-width: 840px) {
   .container {
-    width: 35rem;
+    width: 95%;
   }
 
   header {
@@ -319,14 +345,8 @@ ul.nav {
     width: calc(100%/4);
     padding: 0.25rem 0;
   }
-
-  .page-content {
-    margin-top: 6rem;
-  }
-
-  .post-summary small {
-    display: block;
-    padding: 0.5rem 0;
+  .nav-item a span {
+    padding: 0;
   }
 }
 

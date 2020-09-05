@@ -1,5 +1,9 @@
 {{ if .IsPage }}
-  <small>
-    Reading time: ~{{ .ReadingTime }} minutes ({{ .WordCount }} words)
+  <small class="monospace">
+    by {{ .Params.Author }}
+    &middot; <time datetime="{{ .Date.Format "2006-01-02" }}">
+      {{ .Date.Format "2 January, 2006" }}
+    </time>
+    &middot; Reading time: ~{{ .ReadingTime }} minute(s) ({{ .WordCount }} words)
   </small>
 {{ end }}
