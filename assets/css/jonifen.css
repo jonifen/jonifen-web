@@ -6,8 +6,8 @@
   --highlightRedColour: #c44d58;
   --lowlightColour: #2e353d;
   --darklightColour: #0b0c10;
-  --linkColour: #66fcf1;
-  --linkHoverColour: #91dfd9;
+  --linkColour: #3bcec4;
+  --linkHoverColour: #66fcf1;
   --headerBackgroundColour: #3a4757;
 }
 
@@ -56,7 +56,6 @@ pre {
   border: 1px var(--lowlightColour) solid;
   border-radius: 3px;
   padding: 5px;
-  font-size: 15px;
   line-height: 1.4rem;
   background-color: var(--backgroundCodeColour);
   overflow-x: auto;
@@ -65,14 +64,13 @@ pre {
 pre code {
   padding: 0;
   border: none;
+  font-size: 15px;
 }
 
 code {
   font-family: "Oxygen Mono", monospace;
   background-color: var(--backgroundCodeColour);
   border: 1px var(--lowlightColour) solid;
-}
-p code {
   font-size: 14px;
 }
 
@@ -80,16 +78,20 @@ p code {
   background-color: initial;
 }
 
-h2 {
-  margin: 0;
+h1, h2, h3, h4, h5, h6 {
   font-family: "Oswald", sans-serif;
   font-weight: normal;
 }
 
+h2 {
+  margin: 0;
+}
+h2.summary a {
+  font-weight: 300;
+}
+
 h3 {
   margin: 0;
-  font-family: "Oswald", sans-serif;
-  font-weight: normal;
 }
 
 p.header-title {
@@ -230,11 +232,26 @@ ul.nav {
   transition: 0.5s;
 }
 
-.page-item {
-  display: inline-block;
+.page-tag {
+  border: var(--lowlightColour) 1px solid;
+  color: var(--textColour);
+  border-radius: 5px;
+  padding: 2px 4px;
+  margin: 1px;
   text-align: center;
-  width: 1rem;
-  height: 1rem;
+  display: inline-block;
+  min-width: 20px;
+  overflow-wrap: normal;
+}
+.page-tag:hover {
+  background-color: var(--linkColour);
+  color: var(--textColour);
+  text-decoration: none;
+  transition: 0.5s;
+  text-align: center;
+}
+.page-tag.current {
+  background-color: var(--highlightColour);
 }
 
 .pagination {
@@ -312,6 +329,29 @@ ul.nav {
 
 .no-bottom-margin {
   margin-bottom: 0;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.back-to-top div::after {
+  content: "☝";
+  position: absolute;
+  right: -1.5rem;
+  bottom: -1rem;
+  width: 40px; height: 40px;
+  transform: translate(-50%,-50%);
+  color: var(--highlightColour);
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  border: 2px solid var(--highlightColour);
+  border-radius: 50%;
+  background-color: rgba(31, 40, 51, 0.85);
+  transition: ease-in-out;
+  transition-duration: 2s;
 }
 
 @media screen and (max-width: 1200px) {

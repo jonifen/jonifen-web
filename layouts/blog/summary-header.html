@@ -1,2 +1,2 @@
-<h3 class="summary-header"><a href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }}DRAFT :: {{ end }}{{ end }}{{ .Title }}</a></h3>
+<h2 class="summary"><a href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }}DRAFT :: {{ end }}{{ end }}{{ .Title }}</a></h2>
 {{ partial "shared/page/post-data" . }}

@@ -2,7 +2,9 @@
 <div class="site-summary">
   <div class="container">
     <p>
-      This is a blog about software development, general tech stuff and some completely random junk!
+      {{ with .Site.Params.summary }}
+        {{ . | markdownify }}
+      {{ end }}
     </p>
   </div>
 </div>
@@ -12,12 +14,12 @@
     <h2>Most recent blog posts</h2>
   </div>
 
-  {{ range first 5 (where site.RegularPages "Type" "in" site.Params.indexSections).ByDate.Reverse }}
+  {{ range first site.Params.indexPostCount (where site.RegularPages "Type" "in" site.Params.indexSections).ByDate.Reverse }}
     {{ .Render "homepage-summary" }}
   {{ end }}
 
   <div class="link-panel text-right">
-    <a class="button primary" href="/blog/">All blog posts &gt;</a>
+    <a href="/blog/">View all blog posts</a>
   </div>
 </div>
 
