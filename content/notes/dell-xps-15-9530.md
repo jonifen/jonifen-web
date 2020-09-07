@@ -1,6 +1,7 @@
 ---
 type: "note"
 title: "Dell XPS 15 9530"
+description: "Some bits and pieces about the Dell XPS 15 9530"
 ---
 
 ## Sluggy performance (CPU capped)

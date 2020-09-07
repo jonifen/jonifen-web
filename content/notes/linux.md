@@ -1,6 +1,7 @@
 ---
 title: "Linux"
 type: "note"
+description: "Tips and tricks that I've picked up along the way"
 ---
 
 Most of the notes in here are Arch Linux specific, as this is the distro I use most and the one which tends to give me the most curveballs to deal with! But this is what's so good about it, as it gives me a way to learn things better than I would do with one of the more common distros like Ubuntu.

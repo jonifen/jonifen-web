@@ -1,6 +1,7 @@
 ---
 type: "note"
 title: "Arch Linux Installation"
+description: "The sequence I typically follow to install Arch Linux onto a machine as of 25th April 2020)"
 ---
 
 This is a list of the commands I'd run to set up a machine with Arch Linux as of today (25th April 2020).

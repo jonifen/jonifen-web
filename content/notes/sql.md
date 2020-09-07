@@ -1,6 +1,7 @@
 ---
 title: "SQL"
 type: "note"
+description: "Things I need to remember in SQL"
 ---
 
 ## Joins

@@ -1,6 +1,7 @@
 ---
-title: "JavaScript: Arrays"
+title: "JavaScript"
 type: "note"
+description: "Some JS nuggets for future reference"
 ---
 
 # Convert JavaScript Number to Number Array

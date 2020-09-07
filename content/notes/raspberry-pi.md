@@ -1,6 +1,7 @@
 ---
 title: "Raspberry Pi"
 type: "note"
+description: "Some useful bits of info for the Raspberry Pi"
 ---
 
 ## Laggy mouse on Raspberry Pi (Model 1b)

@@ -1,6 +1,7 @@
 ---
 title: "Home DIY"
 type: "note"
+description: "Notes about DIY that I've done at home..."
 ---
 
 Developers probably aren't typically known for their DIY ability in the home. I try to do a bit, but I know my limitations so these notes are mainly to remind me of what I've done and what I used to do the job.

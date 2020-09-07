@@ -99,9 +99,18 @@ p.header-title {
   font-size: 1.3rem;
 }
 
-a { text-decoration: none; color: var(--linkColour); }
-a:hover { text-decoration: underline; color: var(--linkHoverColour); }
-a:active { text-decoration: underline; color: var(--linkHoverColour); }
+a {
+  text-decoration: none;
+  color: var(--linkColour);
+}
+a:hover {
+  text-decoration: underline;
+  color: var(--linkHoverColour);
+}
+a:active {
+  text-decoration: underline;
+  color: var(--linkHoverColour);
+}
 
 header .heading {
   display: inline-block;
@@ -184,6 +193,13 @@ ul.nav {
 }
 .container p {
   line-height: 1.75rem;
+}
+
+.note-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
 }
 
 .main-content {
@@ -286,13 +302,16 @@ ul.nav {
   padding: 1rem;
 }
 
-.post-summary {
-  background-color: var(--backgroundColour);
+.post-summary, .note-summary {
   padding: 1rem;
   border-bottom: 1px dashed var(--highlightColour);
 }
-.post-summary p {
+.post-summary p, .note-summary p {
   font-family: "Source Sans Pro", sans-serif;
+}
+
+.note-summary {
+  width: 28%;
 }
 
 .monospace {
@@ -343,9 +362,54 @@ ul.nav {
   }
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (min-width: 840px) {
+  .note-container {
+    margin-top: 0.5rem;
+  }
+
+  .note-summary {
+    border: 1px dotted var(--highlightColour);
+    margin: 0.5rem 0 0.5rem 0;
+  }
+
+  .panel-link {
+    color: var(--textColour);
+    transition-duration: 0.5s;
+  }
+  .panel-link:hover {
+    text-decoration: none;
+    color: var(--darklightColour);
+    background-color: var(--highlightColour);
+    transition: "fade";
+    transition-duration: 0.5s;
+  }
+  .panel-link:active {
+    text-decoration: none;
+    background-color: var(--highlightColour);
+  }
+}
+
+@media screen and (max-width: 839px) {
   .container {
     width: 95%;
+  }
+
+  .note-summary {
+    width: 100%;
+  }
+
+  .panel-link p {
+    color: var(--textColour);
+  }
+
+  .panel-link:hover {
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
   }
 
   header {
@@ -371,10 +435,3 @@ ul.nav {
     padding: 0;
   }
 }
-
-@media screen and (max-width: 600px) {
-  .container {
-    width: 100%;
-  }
-}
-

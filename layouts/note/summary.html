@@ -1,0 +1,12 @@
+{{ if .IsPage }}
+<a href="{{ .Permalink }}" class="note-summary panel-link">
+  <div>
+    <h2 class="summary">{{ .Title }}</h2>
+    <p>
+      {{ if .Description }}
+        {{ .Description }}
+      {{ end }}
+    </p>
+  </div>
+</a>
+{{ end }}

@@ -12,12 +12,12 @@
 </div>
 
 <div class="container">
-  {{ $paginator := .Paginate (where .Data.Pages "Type" "note") }}
-  <ul>
+  <div class="note-container">
+    {{ $paginator := .Paginate (where .Data.Pages "Type" "note") }}
     {{ range where site.RegularPages "Type" "note" }}
-      <li><a href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }}DRAFT :: {{ end }}{{ end }}{{ .Title }}</a></li>
+      {{ .Render "summary" }}
     {{ end }}
-  </ul>
+  </div>
 </div>
 
 

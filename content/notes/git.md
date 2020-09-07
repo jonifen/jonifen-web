@@ -1,6 +1,7 @@
 ---
 type: "note"
 title: "Git (Source Control)"
+description: "Some things I've done in Git which I'd like to keep for future reference"
 ---
 
 ## Retaining chmod permissions for scripts in git repositories
