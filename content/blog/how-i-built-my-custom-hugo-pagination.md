@@ -78,7 +78,7 @@ if ($pag.PageNumber <= $pag.TotalPages - ($max_links + 1)) {
 
 I'm pretty pleased with the end result. I'd maybe like an additional number either side of the current page too but I really wanted to retain compatibility with the smaller mobile device screens.
 
-This is my end result ([GitHub link](https://github.com/jonifen/jonifen-web/blob/master/layouts/partials/widgets/pager.html)):
+This is my end result ([relevant commit @ GitHub](https://github.com/jonifen/jonifen-web/blob/499c65f6b8a84fd975e6d20ceec8985e55e5b3cf/layouts/partials/widgets/pager.html)):
 
 ```go
 {{ if gt $.Paginator.TotalPages 1 }}
