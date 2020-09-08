@@ -14,6 +14,27 @@ The git documentation provides more information on the `update-index` command he
 
 -----
 
+## Clone repository including all submodules
+
+Get the latest commit in the parent repository:
+
+```
+git clone {repository_url}
+cd {repository_dir}
+# -- OR --
+git pull
+```
+
+And then update the submodule:
+
+```
+git submodule update --init --recursive
+```
+
+This should pull the relevant commit for the submodule, but it will be in detached HEAD mode based on the commit of the submodule reference in the parent repository.
+
+-----
+
 ## Revert without commit
 
 A standard `git revert` will create a new commit with the reverted content. To revert without creating that commit:

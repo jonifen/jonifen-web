@@ -1,7 +1,7 @@
 ---
 title: "Sky TV"
 type: "note"
-description: "Notes about Sky TV (UK)"
+description: "Bits and pieces about configuring Sky TV in the UK"
 ---
 
 ## Sky Remote Codes
