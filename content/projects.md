@@ -21,11 +21,13 @@ My end goal is for this to learn from the accusations being made and make sugges
 
 [Github](https://github.com/jonifen/GameBrowser/) &middot; Demo coming soon
 
-This is a browser tool to fetch details about a gaming server. Initially it supports Quake III Arena, but could easily be enhanced to support other games too. It will return the list of players with their scores, and then other details such as mod and map etc.
+This is a browser tool to fetch details about a gaming server. It will return the list of players with their scores, and then other details such as mod and map etc.
+
+Initially it only supported Quake III Arena, but I've since added support for the original Unreal Tournament. Currently I'm working on adding support for Steam servers (Quake Live etc.).
 
 It was originally written in a VB6 desktop application, ported to a C# WinForms application and then rewritten during the COVID-19 Lockdown to become a web application with an API.
 
-My end goal is to run this in a Docker container on a Raspberry Pi which is currently running a Quake III Arena game server (also in a Docker container).
+My end goal is to run this in a Docker container on a Raspberry Pi which is also running a Quake III Arena game server in Docker.
 
 ---
 
