@@ -2,7 +2,7 @@
 author: "Jon"
 date: "2015-05-22T22:15:00Z"
 description: "In my current job I use a lot of virtual machines due to the variety of applications we support and the demand for them to work on many versions of Windows."
-tags: ["techsupport", "virtualpc"]
+tags: ["techsupport", "virtualisation"]
 title: "Access services on VirtualBox VM"
 type: "blog"
 

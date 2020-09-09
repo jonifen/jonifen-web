@@ -2,7 +2,7 @@
 author: "Jon"
 date: "2016-01-09T21:33:55Z"
 description: "As mentioned in my last post, I was in the hunt for a new router to replace the aging Buffalo WHR-HP-G54."
-tags: ["techsupport", "connectivity", "router"]
+tags: ["techsupport", "connectivity", "networking"]
 title: "TP-Link Archer C2 - First Impressions"
 type: "blog"
 

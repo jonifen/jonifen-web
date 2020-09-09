@@ -1,11 +1,10 @@
 ---
+title: "No dial tone, but broadband still works?"
 author: "Jon"
 date: "2015-12-03T20:58:18Z"
 description: "It seems whenever I need to make a phone call on the landline, it's broken..."
-tags: ["techsupport", "connectivity", "broadband", "adsl"]
-title: "No dial tone, but broadband still works?"
+tags: ["techsupport", "connectivity", "broadband"]
 type: "blog"
-
 ---
 
 It seems whenever I need to make a phone call on the landline, it's broken. Yesterday I picked up the landline handset and it was dead. No dial tone. Nothing. Nada. Zip.
@@ -24,4 +23,4 @@ The line was back working the next day after I left the devices all unplugged ov
 
 However... No response was received in 5 days (as promised). I could see no mention of the fault ticket on my account when I logged in via the website OR via the service app... despite the provider advising I should be able to view this information in the app. Not impressed.
 
-So, as I'm out of contract, I've placed an order with another provider. I know I'll have a better experience with these guys.
+So, as I'm out of contract, I've placed an order with another provider. That'll sort it out!

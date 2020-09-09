@@ -4,7 +4,7 @@ title: "View Hugo served content on another device on network"
 description: "When you want to view content served by a locally running instance of Hugo on another device, you have to specify a few extra things..."
 date: 2020-09-06T14:18:01+01:00
 author: "Jon"
-tags: ["blog", "techsupport", "web"]
+tags: ["blog", "gohugo.io", "web"]
 ---
 When you want to view content served by a locally running instance of Hugo on another device, you have to specify a few extra things so it will work correctly.
 

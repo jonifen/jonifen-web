@@ -4,7 +4,7 @@ title: "How I Built My Custom Hugo Pagination"
 description: "I've been planning on improving the pagination control for my blog for some time, but it always seemed a bigger job than I really wanted to work on in my spare time, but I was wrong."
 date: 2020-09-08T21:46:16+01:00
 author: "Jon"
-tags: ["blog", "programming", "hugo", "go"]
+tags: ["blog", "programming", "gohugo.io"]
 ---
 I've been planning on improving the pagination control for my blog for some time, but it always seemed a bigger job than I really wanted to work on in my spare time, but I was wrong. The only complexity was around the weird templating syntax that I hadn't _really_ got to grips with fully yet.
 
@@ -42,11 +42,15 @@ So I started off with Glenn's example and removed the first and last buttons bef
 
 Because we already track the maximum number of links on show at any time (`$max_links`), I based my logic for the page 1 button around that and the current page number, so I only show it if the current page number is greater or equal to the max links value (I opted for 3).
 
+I also wrap this in a check to ensure that the total number of pages is greater than the maximum links to show. This stops page numbers from being shown twice.
+
 ```go
 <!-- First page (if current page is greater than allowed limit) -->
-{{ if ge $pag.PageNumber $max_links }}
-  <a href="{{ $pag.First.URL }}" aria-label="First" class="page-tag">1</a>
-  <span>...</span>
+{{ if gt $pag.TotalPages $max_links }}
+  {{ if ge $pag.PageNumber $max_links }}
+    <a href="{{ $pag.First.URL }}" aria-label="First" class="page-tag">1</a>
+    <span>...</span>
+  {{ end }}
 {{ end }}
 ```
 
@@ -58,13 +62,15 @@ if ($pag.PageNumber >= $max_links) {
 }
 ```
 
-And then I turned my attention to the last numbered page button. So I still knew the maximum number of links to be shown, and I knew the total number of pages too from the paginator object, so I base that on whether the current page number is less or equal to the sum of total pages, less the max links plus 1.
+And then I turned my attention to the last numbered page button. So I still knew the maximum number of links to be shown, and I knew the total number of pages too from the paginator object, so I base that on whether the current page number is less or equal to the sum of total pages, less the max links plus 1. I also wrap this in the check to ensure that the total number of pages is greater than the maximum links to show.
 
 ```go
 <!-- Show the last page index -->
-{{ if le $pag.PageNumber (sub $pag.TotalPages (sub $max_links 1)) }}
-  <span>...</span>
-  <a href="{{ $pag.Last.URL }}" aria-label="Last" class="page-tag">{{ $pag.TotalPages }}</a>
+{{ if gt $pag.TotalPages $max_links }}
+  {{ if le $pag.PageNumber (sub $pag.TotalPages (sub $max_links 1)) }}
+    <span>...</span>
+    <a href="{{ $pag.Last.URL }}" aria-label="Last" class="page-tag">{{ $pag.TotalPages }}</a>
+  {{ end }}
 {{ end }}
 ```
 
@@ -95,9 +101,11 @@ This is my end result ([relevant commit @ GitHub](https://github.com/jonifen/jon
   {{ end }}
 
   <!-- First page (if current page is greater than allowed limit) -->
-  {{ if ge $pag.PageNumber $max_links }}
-  <a href="{{ $pag.First.URL }}" aria-label="First" class="page-tag">1</a>
-  <span>...</span>
+  {{ if gt $pag.TotalPages $max_links }}
+    {{ if ge $pag.PageNumber $max_links }}
+    <a href="{{ $pag.First.URL }}" aria-label="First" class="page-tag">1</a>
+    <span>...</span>
+    {{ end }}
   {{ end }}
 
   <!-- Iterate the pager to show pages within ruleset -->
@@ -129,9 +137,11 @@ This is my end result ([relevant commit @ GitHub](https://github.com/jonifen/jon
   {{ end }}
 
   <!-- Show the last page index -->
-  {{ if le $pag.PageNumber (sub $pag.TotalPages (sub $max_links 1)) }}
-  <span>...</span>
-  <a href="{{ $pag.Last.URL }}" aria-label="Last" class="page-tag">{{ $pag.TotalPages }}</a>
+  {{ if gt $pag.TotalPages $max_links }}
+    {{ if le $pag.PageNumber (sub $pag.TotalPages (sub $max_links 1)) }}
+    <span>...</span>
+    <a href="{{ $pag.Last.URL }}" aria-label="Last" class="page-tag">{{ $pag.TotalPages }}</a>
+    {{ end }}
   {{ end }}
 
   {{ if $pag.HasNext }}

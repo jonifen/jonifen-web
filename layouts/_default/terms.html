@@ -8,9 +8,16 @@
   </div>
 </div>
 <div class="container">
-  <div class="content tag-list">
-    {{ $baseurl := .Site.BaseURL }} {{ $data := .Data }} {{ range $key,$value := .Data.Terms.ByCount }}
-    <a href="{{ $baseurl }}{{ $data.Plural }}/{{ $value.Name | urlize }}" title="{{ $value.Name }}" alt="{{ $value.Name }}" class="tag-item">{{ $value.Name }} ({{ $value.Count }})</a><br />
+  <div class="note-container">
+    {{ range .Data.Terms.ByCount }}
+    <a href="{{ .Page.Permalink }}" class="note-summary panel-link">
+      <div>
+        <h2 class="summary">{{ .Page.Title }}</h2>
+        <p>
+          {{ .Count }} posts
+        </p>
+      </div>
+    </a>
     {{ end }}
   </div>
 </div>

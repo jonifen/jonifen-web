@@ -15,9 +15,11 @@
   {{ end }}
 
   <!-- First page (if current page is greater than allowed limit) -->
-  {{ if ge $pag.PageNumber $max_links }}
-  <a href="{{ $pag.First.URL }}" aria-label="First" class="page-tag">1</a>
-  <span>...</span>
+  {{ if gt $pag.TotalPages $max_links }}
+    {{ if ge $pag.PageNumber $max_links }}
+    <a href="{{ $pag.First.URL }}" aria-label="First" class="page-tag">1</a>
+    <span>...</span>
+    {{ end }}
   {{ end }}
 
   <!-- Iterate the pager to show pages within ruleset -->
@@ -49,9 +51,11 @@
   {{ end }}
 
   <!-- Show the last page index -->
-  {{ if le $pag.PageNumber (sub $pag.TotalPages (sub $max_links 1)) }}
-  <span>...</span>
-  <a href="{{ $pag.Last.URL }}" aria-label="Last" class="page-tag">{{ $pag.TotalPages }}</a>
+  {{ if gt $pag.TotalPages $max_links }}
+    {{ if le $pag.PageNumber (sub $pag.TotalPages (sub $max_links 1)) }}
+    <span>...</span>
+    <a href="{{ $pag.Last.URL }}" aria-label="Last" class="page-tag">{{ $pag.TotalPages }}</a>
+    {{ end }}
   {{ end }}
 
   {{ if $pag.HasNext }}

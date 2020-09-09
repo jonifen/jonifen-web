@@ -1,11 +1,10 @@
 ---
+title: "Buffalo WHR-HP-G54 Fun (or not...)"
 author: "Jon"
 date: "2016-01-08T22:54:03Z"
 description: "Getting my fibre connection installed by an engineer meant I needed an ethernet router that supported PPPoE. 'Great!' I thought, as it meant I could dust off my trusty Buffalo router..."
-tags: ["techsupport", "connectivity", "router"]
-title: "Buffalo WHR-HP-G54 Fun (or not...)"
+tags: ["techsupport", "connectivity", "networking"]
 type: "blog"
-
 ---
 Out of contract with my previous supplier, I was free to find a new supplier. Luckily, one of the benefits of my job is that I get free fibre broadband, so it was a simple decision :)
 
