@@ -11,6 +11,11 @@
   --headerBackgroundColour: #3a4757;
 }
 
+html {
+  background-color: var(--backgroundColour);
+  color: var(--textColour);
+}
+
 body {
   margin: 0;
   align-content: center;
