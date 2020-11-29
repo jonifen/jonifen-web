@@ -10,8 +10,8 @@ hugo --minify # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 cd public
 
-# Checkout master branch to avoid attempting to push to detatched HEAD
-git checkout master
+# Checkout main branch to avoid attempting to push to detatched HEAD
+git checkout main
 
 git add .
 
