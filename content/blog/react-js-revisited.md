@@ -15,7 +15,7 @@ date: "2017-02-09T21:06:50Z"
 **Edit 05/03/2017** - My son has kindly followed this mini tutorial and has pointed out a few areas where I didn't make much sense. All part of learning! But I've updated those areas below.
 
 
-It's been a while since I wrote up my [beginner guide to React.js](/blog/post/2015/getting-started-with-reactjs) and I've been thinking it's time to revisit it as things have changed since then with better tooling and ES6 support etc. so here I am!
+It's been a while since I wrote up my [beginner guide to React.js](/blog/getting-started-with-reactjs) and I've been thinking it's time to revisit it as things have changed since then with better tooling and ES6 support etc. so here I am!
 
 Since I started using React, I've used many different tools to "convert" JSX to vanilla JavaScript that a web browser can understand. I started with Browserify (which I use on my first post), we use Webpack at work, and I've also tried using Gulp in the meantime. However, I've finally settled on using Webpack, so this time I'll be using that.
 
