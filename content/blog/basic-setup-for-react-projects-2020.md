@@ -1,10 +1,10 @@
 ---
 type: "blog"
-title: "Basic Setup for React Projects 2020"
+title: "Basic Setup for React Projects in 2020"
 description: ""
 date: 2020-12-26T11:26:44Z
 author: "Jon"
-tags: ["programming", "javascript"]
+tags: ["programming", "javascript", "react"]
 ---
 
 I've seen a lot of people using project initialisation tools to create their new React projects over the years, in particular `create-react-app`. While I do see there are some benefits to these tools (in particular for newcomers), these tools do have their disadvantages.
