@@ -191,3 +191,16 @@ $ sudo mount /dev/md127 /mnt/nas
 ```
 
 Works a treat!
+
+-----
+
+## Add drive to /etc/fstab for auto-mount
+
+When adding a drive to `/etc/fstab` you need either a label or UUID for the disk.
+You can find this using the following command:
+
+```
+blkid
+```
+
+Then you'd add the drive into your `/etc/fstab` using that information. Remember that while blkid adds quotes around the UUID, these aren't required in the fstab file.
