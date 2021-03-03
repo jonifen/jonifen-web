@@ -33,6 +33,12 @@ git submodule update --init --recursive
 
 This should pull the relevant commit for the submodule, but it will be in detached HEAD mode based on the commit of the submodule reference in the parent repository.
 
+**Alternatively**, when doing the initial clone of the repository, you can do the following:
+
+```
+git clone --recursive {repository_url}
+```
+
 -----
 
 ## Revert without commit
