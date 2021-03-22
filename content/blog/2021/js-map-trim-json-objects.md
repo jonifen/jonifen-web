@@ -1,7 +1,7 @@
 ---
 title: "Reduce a large JSON object down to only what you need"
 description: "Sometimes you need to use an API that returns a large payload, but you may only need to use a small number of fields from that payload. Rather than try storing that data, or hand-balling the data yourself, there is an alternative solution."
-date: "2021-03-18T21:59:32+01:00"
+date: "2021-03-22T20:27:32+01:00"
 author: "Jon"
 tags: [
   "programming",
