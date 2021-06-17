@@ -74,3 +74,25 @@ git revert abcdef01^..abcdef09
 ```
 
 -----
+
+## Git Bash command line prompt
+
+This is my current custom and basic prompt in Git Bash on Windows:
+
+```bash
+source /c/Program\ Files/Git/mingw64/share/git/completion/git_prompt.sh
+export GIT_PS1_SHOWDIRTYSTATE=1
+export PS1='\n\[\e[32m\]\w \[\e[91m\]$(__git_ps1 "(%s)")\[\e[00m\]\$ '
+```
+
+This results in the following (the examples are without colour):
+
+```bash
+# Non-git directory
+/c/directory $
+
+# Git directory
+/c/directory (main)$
+```
+
+-----
