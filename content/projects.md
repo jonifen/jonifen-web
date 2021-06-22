@@ -31,6 +31,22 @@ My end goal is to run this in a Docker container on a Raspberry Pi which is also
 
 ---
 
+### Other projects
+
+#### Terraria server in Docker on Raspberry Pi
+
+[GitHub](https://github.com/jonifen/terraria-docker-raspberry-pi)
+
+We needed a server for us to play Terraria on at home, and it made sense to get it running on a machine that was always on. This meant the Raspberry Pi was the ideal candidate, but any existing solutions online weren't working as we had hoped. This gave me the opportunity to do some learning and get it working myself. The biggest challenge was getting it to work on an ARM cpu rather than x86.
+
+Because I had managed to get things working, I thought it right to share it with others. We can't be the only ones wanting to host a Terraria server on a Pi!
+
+#### Katas
+
+If I have some free time that's not taken up by family time or my other side projects, I like to try katas to find new ways to solve problems. A few of these are on my GitHub account, with attempts committed under branches for reference. The only downside to uploading previous attempts online is that I may be given something much more complicated in an interview one day ;)
+
+---
+
 ### Fun stuff
 
 #### Cakeable Offence
