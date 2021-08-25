@@ -214,3 +214,14 @@ Once you've rebooted and logged in, you may find you can't get a network connect
 sudo systemctl enable NetworkManager
 sudo systemctl start NetworkManager
 ```
+
+## Additional packages
+There are additional packages that I tend to install after a base install. Some of these are related to software development, some are not.
+
+- Yay (AUR helper, saves a few keypresses for installing packages via AUR)
+- nvm (Node Version Manager - this is available on AUR and can be installed with Yay)
+- OpenSSH (ssh - because it's not installed by default)
+- Visual Studio Code - I install the MS one from AUR because some plugins that I've become pretty used to aren't in the open repository.
+- docker and docker-compose (both available from official Arch Linux repositories)
+- kamoso (camera utility for KDE)
+- pulseaudio-equalizer (audio equaliser for pulseaudio - it sets itself up as an additional audio controller, so it affects _all_ audio output)
