@@ -180,23 +180,111 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 ### Install any additional utilities, window managers etc.
 
-I use the KDE/Plasma desktop and use SDDM as my display manager, so I'll install these now.
+#### KDE/Plasma & SDDM
 
 ```
 pacman -S plasma sddm
 ```
 
-And I need to enable the SDDM service so it'll auto-load on boot:
+Enable the SDDM service so it's launched on boot:
 
 ```
 systemctl enable sddm
 ```
 
-I'll also want to have a terminal installed for use in Plasma, I've been using Konsole for that:
+#### Openbox
+This is my choice on low powered machines, and I don't include a display manager (but you can add one if you like though). Remember that you'll need to start X yourself with `startx`.
 
 ```
-pacman -S konsole
+pacman -S xorg-server xorg-xinit xorg-apps openbox obconf lxappearance
 ```
+
+Use the example xinitrc file as your base:
+
+```
+cp /etc/X11/xinit/xinitrc ~/.xinitrc
+```
+
+edit the file to comment out the last block (starts with `twm` and includes references to `xterm` etc.) and then add the following at the bottom:
+
+```
+exec openbox-session
+```
+
+#### Terminal
+Take your pick from `konsole` (my preferred in KDE), `xterm` (very simple), `sakura` (basic with some features).
+
+## Network connectivity
+You'll probably need to install some packages to help you get a network connection post-reboot. Here are a few options:
+
+### NetworkManager
+Should get installed with KDE, but if you've opted for something else, needs installing manually:
+
+```
+pacman -S network-manager network-manager-applet
+```
+
+and then the service needs enabling:
+
+```
+sudo systemctl enable NetworkManager
+sudo systemctl start NetworkManager
+```
+
+### WPA Supplicant (wifi only)
+
+```
+pacman -S dialog wpa_supplicant
+```
+
+once installed:
+
+```
+sudo wifi-menu
+```
+
+it will save your profile as a network service, view all options:
+
+```
+sudo netctl list
+```
+
+and enable the one you want:
+
+```
+sudo netctl enable {profile_name}
+```
+
+### iwd
+Install the `iwd` package from the registry and start it with:
+
+```
+iwctl
+```
+
+At the interactive prompt:
+
+```
+# show the installed wifi adapters
+devices list
+
+# scan for networks
+station {wlan} scan
+
+# show the networks found in the scan
+station {wlan} get-networks
+
+# connect to a network (it will prompt for PSK)
+station {wlan} connect {network_name}
+```
+
+I also had to install the `dhcp` package and then enable the daemon, along with the DNS resolver in systemd:
+
+```
+systemctl enable dhcpd
+systemctl enable systemd-resolved
+```
+
 
 ## Final steps (and reboot)
 
@@ -208,12 +296,6 @@ umount -R /mnt
 reboot
 ```
 
-Once you've rebooted and logged in, you may find you can't get a network connection. If so, you'll need to enable and start the `NetworkManager` service:
-
-```
-sudo systemctl enable NetworkManager
-sudo systemctl start NetworkManager
-```
 
 ## Additional packages
 There are additional packages that I tend to install after a base install. Some of these are related to software development, some are not.
@@ -221,7 +303,29 @@ There are additional packages that I tend to install after a base install. Some 
 - Yay (AUR helper, saves a few keypresses for installing packages via AUR)
 - nvm (Node Version Manager - this is available on AUR and can be installed with Yay)
 - OpenSSH (ssh - because it's not installed by default)
-- Visual Studio Code - I install the MS one from AUR because some plugins that I've become pretty used to aren't in the open repository.
+- Visual Studio Code - I install the MS one from AUR because some plugins that I've become pretty used to aren't in the open repository: `visual-studio-code-bin`
 - docker and docker-compose (both available from official Arch Linux repositories)
 - kamoso (camera utility for KDE)
 - pulseaudio-equalizer (audio equaliser for pulseaudio - it sets itself up as an additional audio controller, so it affects _all_ audio output)
+
+### Fonts
+These can be installed from the standard Arch Linux package registry.
+
+- Hack: ttf-hack
+- Noto Fonts: noto-fonts noto-fonts-emoji noto-fonts-extra
+
+
+## Gotchas
+### Signature is unknown trust
+
+```
+signature from "{name} <{email}>" is unknown trust
+```
+
+As per the Arch docs [here](https://wiki.archlinux.org/title/Pacman#Signature_from_%22User_%3Cemail@example.org%3E%22_is_unknown_trust,_installation_failed), there are a few possible solutions but I've had success with installing the `archlinux-keyring` package and then doing a pacman update:
+
+```
+sudo pacman -Sy archlinux-keyring
+sudo pacman -Su
+```
+
