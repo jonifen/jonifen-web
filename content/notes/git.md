@@ -96,3 +96,13 @@ This results in the following (the examples are without colour):
 ```
 
 -----
+
+## My git aliases
+
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative
+	lga = lg --all
+	st = status -sb
+	stat = log -1 --stat
+
+-----
