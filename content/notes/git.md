@@ -79,7 +79,7 @@ You can also flag it such that it won't automatically commit the revert too usin
 
 ## Git Bash command line prompt
 
-This is my current custom and basic prompt in Git Bash on Windows:
+This is my current custom and basic prompt in Git Bash on Windows which I add to my `~/.bashrc` file:
 
 ```bash
 source /c/Program\ Files/Git/mingw64/share/git/completion/git-prompt.sh
@@ -100,6 +100,8 @@ This results in the following (the examples are without colour):
 -----
 
 ## My git aliases
+
+These are located in my `~/.gitconfig` file.
 
 ```
 [alias]
