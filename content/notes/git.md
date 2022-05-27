@@ -73,6 +73,8 @@ i.e.
 git revert abcdef01^..abcdef09
 ```
 
+You can also flag it such that it won't automatically commit the revert too using the `--no-commit` or `-n` switch.
+
 -----
 
 ## Git Bash command line prompt
@@ -99,10 +101,12 @@ This results in the following (the examples are without colour):
 
 ## My git aliases
 
+```
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative
 	lga = lg --all
 	st = status -sb
 	stat = log -1 --stat
+```
 
 -----
