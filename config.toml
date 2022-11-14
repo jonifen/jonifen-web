@@ -1,7 +1,7 @@
 baseUrl = "/"
 languageCode = "en-gb"
 title = "Jon Cain 👨‍💻 (jonifen.co.uk)"
-copyright = "(c) 2020 Jon Cain"
+copyright = "(c) 2022 Jon Cain"
 Paginate = 8
 
 [taxonomies]
