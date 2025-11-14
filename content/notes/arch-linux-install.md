@@ -298,6 +298,19 @@ These can be installed from the standard Arch Linux package registry.
 - Hack: ttf-hack
 - Noto Fonts: noto-fonts noto-fonts-emoji noto-fonts-extra
 
+### Pantheon Code
+
+Pantheon Code comes with ElementaryOS, but it's said to be lightweight, which would be ideal for editing code on a low powered portable machine so I tried getting it to run on my DM1 running Arch.
+
+I was able to install it using:
+
+```bash
+sudo pacman -S pantheon-code
+```
+
+But it wouldn't run from the shortcuts. I eventually pinned it down to being called `io.elementary.code` and located in `/usr/bin` so I tried running it from zsh but it told me that it was missing a shared file - `libvte-2.91.so` which took me a while to figure out which package provided that file, and eventually pinned it down to `vte3` which I was able to install using pacman.
+
+This got the app running, but the X button to close the app just doesn't work at all! So I'll figure that out next.
 
 ## Gotchas
 
