@@ -1,14 +1,14 @@
 :root {
-  --backgroundColour: #1f2833;
-  --backgroundCodeColour: #2a3646;
+  --backgroundColour: #1a202c;
+  --backgroundCodeColour: #212938;
   --textColour: #c5c6c7;
-  --highlightColour: #45a29e;
-  --highlightRedColour: #c44d58;
+  --highlightColour: #00acd7;
+  --highlightRedColour: #d70076;
   --lowlightColour: #2e353d;
   --darklightColour: #0b0c10;
-  --linkColour: #3bcec4;
-  --linkHoverColour: #66fcf1;
-  --headerBackgroundColour: #3a4757;
+  --linkColour: #00acd7;
+  --linkHoverColour: #0097bc;
+  --headerBackgroundColour: #334155;
 }
 
 html {
@@ -33,7 +33,7 @@ header {
   line-height: 3rem;
   background-color: var(--backgroundColour);
   opacity: 0.9;
-  color: var(--textcolour);
+  color: var(--textColour);
   font-family: "Aleo", serif;
 }
 
