@@ -24,10 +24,10 @@
       "guessSyntax": false,
       "hl_Lines": "",
       "lineNoStart": 1,
-      "lineNos": true,
-      "lineNumbersInTable": true,
+      "lineNos": false,
+      "lineNumbersInTable": false,
       "noClasses": true,
-      "style": "monokai",
+      "style": "catppuccin-frappe",
       "tabWidth": 2
     }
   }

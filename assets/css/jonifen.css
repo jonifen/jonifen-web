@@ -236,19 +236,18 @@ ul.nav {
       background-color: var(--linkHoverColour);
     }
 
-.tag {
-  border: var(--lowlightColour) 1px solid;
+.tag::before {
+  content: "#";
   color: var(--textColour);
-  border-radius: 5px;
+}
+
+.tag {
+  color: var(--highlightColour);
   font-size: 12px;
-  padding: 2px 4px;
-  margin: 1px;
-  text-align: center;
-  min-width: 20px;
+  margin-left: 2px;
 }
 .tag:hover {
-  background-color: var(--highlightColour);
-  color: var(--textColour);
+  color: var(--highlightRedColour);
   text-decoration: none;
   transition: 0.5s;
 }
