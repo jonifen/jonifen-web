@@ -14,6 +14,11 @@
   URL = "/projects/"
 
 [3]
+  Name = "Uses"
+  Title = "Uses"
+  URL = "/uses/"
+
+[4]
   Name = "About"
   Title = "About"
   URL = "/about/"
