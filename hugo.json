@@ -27,7 +27,7 @@
       "lineNos": false,
       "lineNumbersInTable": false,
       "noClasses": true,
-      "style": "aura-theme-dark",
+      "style": "solarized-dark256",
       "tabWidth": 2
     }
   }
