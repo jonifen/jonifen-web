@@ -1,14 +1,24 @@
 :root {
-  --backgroundColour: #1a202c;
-  --backgroundCodeColour: #212938;
-  --textColour: #c5c6c7;
-  --highlightColour: #00acd7;
-  --highlightRedColour: #d70076;
-  --lowlightColour: #2e353d;
-  --darklightColour: #0b0c10;
-  --linkColour: #00acd7;
-  --linkHoverColour: #0097bc;
-  --headerBackgroundColour: #334155;
+  /* Colour palette */
+  --carbon-black: #1B1B1E;
+  --shadow-grey: #27272B;
+  --charcoal-blue: #373F51;
+  --pacific-blue: #58A4B0;
+  --powder-blue: #A9BCD0;
+  --alabaster-grey: #D8DBE2;
+  --amethyst-smoke: #AA78A6;
+  --green-yellow: #9CFF33;
+  --green-yellow-light: #BAFF70;
+  --pumpkin-spice: #ED7D3A;
+
+  /* Palette setup */
+  --backgroundColour: var(--carbon-black);
+  --backgroundCodeColour: var(--shadow-grey);
+  --textColour: var(--alabaster-grey);
+  --highlightColour: var(--powder-blue);
+  --lowlightColour: var(--charcoal-blue);
+  --linkColour: var(--green-yellow);
+  --linkHoverColour: var(--green-yellow-light);
 }
 
 html {
@@ -138,7 +148,7 @@ header .container .nav {
 
 hr {
   border: 0;
-  border-bottom: 1px dashed var(--highlightColour);
+  border-bottom: 1px dashed var(--lowlightColour);
 }
 
 small {
@@ -150,7 +160,7 @@ table {
 }
 th,td {
   padding: 0.5rem;
-  border: 1px var(--highlightColour) solid;
+  border: 1px var(--lowlightColour) solid;
 }
 
 ul.nav {
@@ -185,7 +195,7 @@ ul.nav {
 
 .nav-item:hover {
   transition: border-bottom .5s ease-in-out;
-  border-bottom: 2px solid var(--highlightColour);
+  border-bottom: 2px solid var(--green-yellow);
 }
 
 .container {
@@ -242,12 +252,12 @@ ul.nav {
 }
 
 .tag {
-  color: var(--highlightColour);
+  color: var(--amethyst-smoke);
   font-size: 12px;
   margin-left: 2px;
 }
 .tag:hover {
-  color: var(--highlightRedColour);
+  color: var(--linkHoverColour);
   text-decoration: none;
   transition: 0.5s;
 }
@@ -288,7 +298,7 @@ ul.nav {
 }
 
 .site-summary {
-  background-color: var(--headerBackgroundColour);
+  background-color: var(--shadow-grey);
 }
 .site-summary p {
   padding: 3rem;
@@ -300,7 +310,7 @@ ul.nav {
 }
 
 .post-header .container {
-  border-bottom: 1px dashed var(--highlightColour);
+  border-bottom: 1px dashed var(--lowlightColour);
 }
 .post-header .content {
   padding: 1rem;
@@ -308,7 +318,7 @@ ul.nav {
 
 .post-summary, .note-summary {
   padding: 1rem;
-  border-bottom: 1px dashed var(--highlightColour);
+  border-bottom: 1px dashed var(--lowlightColour);
 }
 .post-summary p, .note-summary p {
   font-family: "Source Sans Pro", sans-serif;
@@ -372,7 +382,7 @@ ul.nav {
   }
 
   .note-summary {
-    border: 1px dotted var(--highlightColour);
+    border: 1px dotted var(--lowlightColour);
     margin: 0.5rem 0 0.5rem 0;
   }
 
@@ -382,7 +392,7 @@ ul.nav {
   }
   .panel-link:hover {
     text-decoration: none;
-    color: var(--darklightColour);
+    color: var(--shadow-grey);
     background-color: var(--highlightColour);
     transition: "fade";
     transition-duration: 0.5s;

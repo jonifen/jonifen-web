@@ -11,7 +11,7 @@
     "subtitle": "A blog about software development, general tech and some completely random junk!"
   },
   "title": "Jon Cain (jonifen.co.uk)",
-  "copyright": "© 2025 Jon Cain",
+  "copyright": "© 2026 Jon Cain",
   "pagination": {
     "pagerSize": 8
   },
@@ -27,7 +27,7 @@
       "lineNos": false,
       "lineNumbersInTable": false,
       "noClasses": true,
-      "style": "catppuccin-frappe",
+      "style": "aura-theme-dark",
       "tabWidth": 2
     }
   }
