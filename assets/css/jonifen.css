@@ -432,7 +432,7 @@ ul.nav {
 
   .nav-item {
     text-align: center;
-    width: calc(100%/4);
+    width: calc(100%/5);
     padding: 0.25rem 0;
   }
   .nav-item a span {
