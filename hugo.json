@@ -2,18 +2,18 @@
   "baseURL": "/",
   "languageCode": "en-gb",
   "params": {
-    "indexSections": ["blog"],
+    "indexSections": ["post"],
     "indexPostCount": 5,
     "footline": "",
-    "description": "This is a blog about software development, general tech and some completely random junk!",
+    "description": "This is a site about software development, general tech and some completely random junk!",
     "images": ["images/og-avatar.png"],
-    "summary": "This is a blog about software development, general tech and some completely random junk!",
-    "subtitle": "A blog about software development, general tech and some completely random junk!"
+    "summary": "This is a site about software development, general tech and some completely random junk!",
+    "subtitle": "A site about software development, general tech and some completely random junk!"
   },
   "title": "Jon Cain (jonifen.co.uk)",
   "copyright": "© 2026 Jon Cain",
   "pagination": {
-    "pagerSize": 8
+    "pagerSize": 10
   },
   "taxonomies": {
     "tag": "tags"

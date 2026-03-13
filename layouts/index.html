@@ -11,15 +11,22 @@
 
 <div class="container">
   <div class="section-header">
-    <h2>Most recent blog posts</h2>
+    <h2>Most recent posts</h2>
   </div>
 
-  {{ range first site.Params.indexPostCount (where site.RegularPages "Type" "in" site.Params.indexSections).ByDate.Reverse }}
+  {{ $posts := slice }}
+  {{ range site.RegularPages }}
+    {{ if eq .Type "post" }}
+      {{ $posts = $posts | append . }}
+    {{ end }}
+  {{ end }}
+
+  {{ range first site.Params.indexPostCount $posts.ByDate.Reverse }}
     {{ .Render "homepage-summary" }}
   {{ end }}
 
   <div class="link-panel text-right">
-    <a href="/blog/">View all blog posts</a>
+    <a href="/posts/">View all posts</a>
   </div>
 </div>
 

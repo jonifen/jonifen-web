@@ -44,7 +44,6 @@ header {
   background-color: var(--backgroundColour);
   opacity: 0.9;
   color: var(--textColour);
-  font-family: "Aleo", serif;
 }
 
 header .container {
@@ -54,7 +53,6 @@ header .container {
 footer {
   text-align: center;
   padding: 1rem;
-  font-family: "Aleo", serif;
 }
 
 .footer-icons {
@@ -74,7 +72,7 @@ pre {
   line-height: 1.4rem;
   background-color: var(--backgroundCodeColour);
   overflow-x: auto;
-  font-family: "Oxygen Mono", monospace;
+  font-family: "Menlo", "Cascadia Code", "Cascadia Mono", monospace;
 }
 pre code {
   padding: 0;
@@ -83,7 +81,7 @@ pre code {
 }
 
 code {
-  font-family: "Oxygen Mono", monospace;
+  font-family: "Menlo", "Cascadia Code", "Cascadia Mono", monospace;
   background-color: var(--backgroundCodeColour);
   border: 1px var(--lowlightColour) solid;
   font-size: 14px;
@@ -94,7 +92,6 @@ code {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Oswald", sans-serif;
   font-weight: normal;
 }
 
@@ -329,7 +326,7 @@ ul.nav {
 }
 
 .monospace {
-  font-family: "Oxygen Mono", monospace;
+  font-family: "Menlo", "Cascadia Code", "Cascadia Mono", monospace;
 }
 
 .post-header .post-details {
@@ -442,7 +439,7 @@ ul.nav {
 
   .nav-item {
     text-align: center;
-    width: calc(100%/5);
+    width: calc(100%/4);
     padding: 0.25rem 0;
   }
   .nav-item a span {

@@ -1,9 +1,9 @@
 ---
-type: "blog"
+type: "posts"
 title: "{{ replace .Name "-" " " | title }}"
 description: ""
 date: {{ .Date }}
 author: ""
-tags: ["blog"]
+tags: ["posts"]
 draft: true
 ---

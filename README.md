@@ -1,6 +1,6 @@
 # jonifen-web
 
-This is the repository for my rather basic personal blog/website which is hosted in Github Pages via my own domain https://jonifen.co.uk/
+This is the repository for my rather basic personal site which is hosted in Github Pages via my own domain https://jonifen.co.uk/
 
 ## Deploying changes
 

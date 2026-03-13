@@ -8,7 +8,7 @@
   </div>
 </div>
 <div class="container">
-  {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
+  {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
   {{ range $paginator.Pages }}
     {{ .Render "summary" }}
   {{ end }}
