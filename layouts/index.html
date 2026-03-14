@@ -1,33 +1,11 @@
 {{ partial "page-header" . }}
-<div class="site-summary">
-  <div class="container">
-    <p>
-      {{ with .Site.Params.summary }}
-        {{ . | markdownify }}
-      {{ end }}
-    </p>
-  </div>
-</div>
 
 <div class="container">
-  <div class="section-header">
-    <h2>Most recent posts</h2>
-  </div>
-
-  {{ $posts := slice }}
-  {{ range site.RegularPages }}
-    {{ if eq .Type "post" }}
-      {{ $posts = $posts | append . }}
-    {{ end }}
+  {{ $paginator := .Paginate (where site.RegularPages "Type" "post") }}
+  {{ range $paginator.Pages }}
+    {{ .Render "summary" }}
   {{ end }}
-
-  {{ range first site.Params.indexPostCount $posts.ByDate.Reverse }}
-    {{ .Render "homepage-summary" }}
-  {{ end }}
-
-  <div class="link-panel text-right">
-    <a href="/posts/">View all posts</a>
-  </div>
+  {{ partial "widgets/pager" . }}
 </div>
 
 {{ partial "footer" . }}

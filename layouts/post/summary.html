@@ -3,12 +3,7 @@
   {{ partial "widgets/tags" . }}
   <p>
     {{ if .IsPage }}
-      {{ if .Description }}
-        {{ .Description }}
-      {{ else }}
-        {{ .Summary }}
-      {{ end }}
+      {{ .Summary }} (<a href="{{ .Permalink }}">Continue reading</a>)
     {{ end }}
-    (<a href="{{ .Permalink }}">Continue reading</a>)
   </p>
 </div>

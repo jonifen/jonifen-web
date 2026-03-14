@@ -9,11 +9,11 @@
 </div>
 
 <div class="container">
-  {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
-  {{ range $paginator.Pages }}
-    {{ .Render "summary" }}
-  {{ end }}
-  {{ partial "widgets/pager" . }}
+  <ul>
+    {{ range where site.RegularPages "Type" "post" }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a> <span class="text-xs">{{ .Date.Format "Jan 2, 2006" }}</span></li>
+    {{ end }}
+  </ul>
 </div>
 
 {{ partial "footer" . }}

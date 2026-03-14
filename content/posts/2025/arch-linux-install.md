@@ -11,6 +11,8 @@ First of all, create a bootable USB (or CD) based on the ISO downloaded from the
 
 The Arch Linux wiki is probably one of the best I've ever used, so the latest basic installation steps can be found [here](https://wiki.archlinux.org/title/Installation_guide).
 
+<!--more-->
+
 ## Initial steps
 
 ### Set keyboard layout to UK
