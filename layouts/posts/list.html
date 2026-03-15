@@ -10,7 +10,7 @@
 
 <div class="container">
   <ul>
-    {{ range where site.RegularPages "Type" "post" }}
+    {{ range where .Pages "Type" "post" }}
       <li><a href="{{ .Permalink }}">{{ .Title }}</a> <span class="text-xs">{{ .Date.Format "Jan 2, 2006" }}</span></li>
     {{ end }}
   </ul>

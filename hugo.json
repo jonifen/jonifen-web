@@ -10,11 +10,19 @@
     "summary": "This is a site about software development, general tech and some completely random junk!",
     "subtitle": "A site about software development, general tech and some completely random junk!"
   },
+  "permalinks": {
+    "posts": "/posts/:year/:slug"
+  },
   "title": "Jon Cain (jonifen.co.uk)",
   "copyright": "© 2026 Jon Cain",
   "pagination": {
-    "pagerSize": 10
+    "pagerSize": 10,
+    "path": "page"
   },
+  "outputs": {
+    "section": ["HTML"]
+  },
+  "disableKinds": [],
   "taxonomies": {
     "tag": "tags"
   },

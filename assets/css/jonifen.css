@@ -44,6 +44,7 @@ header {
   background-color: var(--backgroundColour);
   opacity: 0.9;
   color: var(--textColour);
+  border-bottom: 1px dashed var(--lowlightColour);
 }
 
 header .container {
