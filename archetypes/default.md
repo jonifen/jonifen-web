@@ -1,7 +1,6 @@
 ---
-type: "posts"
+type: "post"
 title: "{{ replace .Name "-" " " | title }}"
-description: ""
 date: {{ .Date }}
 author: ""
 tags: ["posts"]
