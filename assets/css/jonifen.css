@@ -29,7 +29,7 @@ html {
 body {
   margin: 0;
   align-content: center;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "SUSE", sans-serif;
   font-size: 1.125rem;
   overflow-x: hidden;
   background-color: var(--backgroundColour);
@@ -226,7 +226,7 @@ ul.nav {
 }
 
 .main-content {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "SUSE", sans-serif;
   padding: 1rem;
 }
 .main-content p:first-of-type {
@@ -329,7 +329,7 @@ ul.nav {
   border-bottom: 1px dashed var(--lowlightColour);
 }
 .post-summary p, .note-summary p {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "SUSE", sans-serif;
 }
 
 .note-summary {
