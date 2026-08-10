@@ -488,6 +488,18 @@ ul.nav {
     width: 100%;
   }
 
+  .summary-cards {
+    flex-direction: column;
+  }
+  .summary-card {
+    width: 100%;
+  }
+
+  a.card:not(:first-child) {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
   header {
     height: 3.25rem;
   }
