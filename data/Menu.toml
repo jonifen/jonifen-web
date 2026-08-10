@@ -1,7 +1,7 @@
 [0]
 	Name = "Posts"
 	Title = "Posts"
-	URL = "/"
+	URL = "/posts/"
 
 [1]
   Name = "Projects"

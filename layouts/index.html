@@ -1,11 +1,14 @@
 {{ partial "page-header" . }}
 
 <div class="container">
-  {{ $paginator := .Paginate (where site.RegularPages "Type" "post") }}
-  {{ range $paginator.Pages }}
-    {{ .Render "summary" }}
-  {{ end }}
-  {{ partial "widgets/pager" . }}
+  <div class="hero-banner">{{ .Content }}</div>
+  <h2>Recent posts</h2>
+  <div class="summary-cards">
+    {{ $paginator := .Paginate (where site.RegularPages "Type" "post") }}
+    {{ range first 3 $paginator.Pages }}
+      {{ .Render "summary-card" }}
+    {{ end }}
+  </div>
 </div>
 
 {{ partial "footer" . }}

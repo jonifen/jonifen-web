@@ -5,8 +5,6 @@ date: 2026-03-13T22:29:00Z
 title: "About"
 ---
 
-Hi, I'm Jon.
-
 I'm currently working as a Lead Developer for a large ISP, where most of my role is leading a team of 4 and plotting a path through a vast software estate. Despite the role meaning I don't spend much time writing code, I still refer to myself as an Engineer, primarily using TypeScript and C#. I know a bit of Python from tinkering with a Raspberry Pi, but that's as far as I got. As with everyone else in the industry at the moment, I've started getting into using AI tooling to see if they can make things more efficient.
 
 I started out creating mini utilities in MS Access (hey, that's all I had access to in work at the time!) to make my work easier back in the mid 2000s before officially becoming a developer in 2007 working with VB6.

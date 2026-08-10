@@ -10,11 +10,27 @@
 </div>
 
 <div class="container">
-  <ul>
-    {{ range .Pages.ByDate.Reverse }}
-      <li><a href="{{ .Permalink }}">{{ .Title }}</a> <span class="text-xs">{{ .Date.Format "Jan 2, 2006" }}</span></li>
-    {{ end }}
-  </ul>
+  <div class="content">
+    <div>
+      {{ $posts := .RegularPagesRecursive.ByDate.Reverse }}
+      {{ $paginator := .Paginate $posts }}
+
+      {{ $currentYear := "" }}
+      {{ range $paginator.Pages }}
+        {{ $year := .Date.Format "2006" }}
+        {{ if ne $year $currentYear }}
+          {{ if ne $currentYear "" }}</div>{{ end }}
+          <h3>{{ $year }}</h3>
+          <div style="padding-left: 2rem; padding-bottom: 1rem">
+          {{ $currentYear = $year }}
+        {{ end }}
+        {{ .Render "summary-list-item" }}
+      {{ end }}
+      {{ if ne $currentYear "" }}</div>{{ end }}
+
+      {{ partial "widgets/pager" . }}
+    </div>
+  </div>
 </div>
 
 {{ partial "footer" . }}

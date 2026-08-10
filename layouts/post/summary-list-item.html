@@ -1,0 +1,9 @@
+<div class="summary-list-item">
+<h3 class="summary">
+  <a href="{{ .Permalink }}"
+    >{{ if .IsPage }}{{ if .Draft }}DRAFT :: {{ end }}{{ end }}{{ .Title }}</a
+  >
+</h3>
+{{ partial "shared/page/post-data" . }}
+{{ .Summary }}
+</div>

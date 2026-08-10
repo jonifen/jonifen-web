@@ -30,7 +30,7 @@ body {
   margin: 0;
   align-content: center;
   font-family: "SUSE", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1.0625rem;
   overflow-x: hidden;
   background-color: var(--backgroundColour);
   color: var(--textColour);
@@ -64,6 +64,41 @@ footer {
 }
 .footer-icons a:hover {
   text-decoration: none;
+}
+
+.hero-banner {
+  padding: 1.5rem 2.5rem;
+  background-color: var(--shadow-grey);
+  margin: 1rem 0;
+  border-radius: 1rem;
+}
+
+.summary-cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+}
+.summary-cards > * {
+  flex: 1;
+}
+.summary-card {
+  flex: 1 1 0px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.summary-card .meta-tag {
+  border: 1px solid var(--shadow-grey);
+  border-radius: 1rem;
+  padding: 0.1rem 0.4rem;
+}
+
+.summary-list-item {
+  margin-top: 1rem;
+  border-left: 0.25rem solid var(--amethyst-smoke);
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
 }
 
 pre {
@@ -128,6 +163,25 @@ a:hover {
 a:active {
   text-decoration: underline;
   color: var(--linkHoverColour);
+}
+
+a.card {
+  text-decoration: none;
+  color: var(--textColour);
+  border: 1px solid var(--charcoal-blue);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+a.card:hover {
+  background-color: var(--highlightColour);
+  color: var(--carbon-black);
+}
+a.card:active {
+  background-color: var(--highlightColour);
+  color: var(--carbon-black);
+}
+a.card:not(:first-child) {
+  margin-left: 0.5rem;
 }
 
 header .heading {
