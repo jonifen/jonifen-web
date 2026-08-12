@@ -8,10 +8,12 @@ title: "Uses"
 ## Desk
 
 - [ErGear electric standing desk 120x60](https://www.amazon.co.uk/dp/B0D9MGDDHD)
+- [ErGear stacked dual monitor arm](https://www.amazon.co.uk/dp/B0FQM5K3RX)
 
 ## Screens
 
 - Samsung 27" WQHD 144Hz 1000R curve
+- Benq EX2780Q WQHD 144Hz IPS
 - Panasonic 39" 1080p TV (for the driving sims)
 
 ## Peripherals
@@ -36,7 +38,7 @@ title: "Uses"
 - M1 Pro
 - 16GB RAM
 - 512GB
-- MacOS Sequoia
+- MacOS Tahoe
 
 ### 2015 MacBook Air 13"
 
@@ -54,3 +56,10 @@ title: "Uses"
 - Apple Watch Series 7
 - iPad Air 3rd Generation (2019) 32GB
 - AirPods 2nd Generation 
+
+## Home "Server"
+
+- Lenovo Thinkcentre M710q Tiny
+- Intel i5-6400T
+- 32GB Corsair Vengeance DDR4 (2x 16GB)
+- Proxmox 9.2.6
