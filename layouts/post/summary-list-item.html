@@ -1,9 +1,10 @@
 <div class="summary-list-item">
-<h3 class="summary">
-  <a href="{{ .Permalink }}"
-    >{{ if .IsPage }}{{ if .Draft }}DRAFT :: {{ end }}{{ end }}{{ .Title }}</a
-  >
-</h3>
-{{ partial "shared/page/post-data" . }}
-{{ .Summary }}
+  <h3 class="summary">
+    <a class="summary-list-link" href="{{ .Permalink }}">{{ if .IsPage }}{{ if .Draft }}DRAFT :: {{ end }}{{ end }}{{ .Title }}</a>
+  </h3>
+  {{ partial "shared/page/post-data" . }}
+  {{ $summary := .Summary | truncate 200 "..." }}
+  {{ $link := printf ` (<a class="continue-reading" href="%s">continue reading</a>)` .Permalink }}
+  {{ $summary = replaceRE `(</p>\s*)$` (printf "%s</p>" $link) $summary }}
+  {{ $summary | safeHTML }}
 </div>

@@ -1,5 +1,5 @@
 ---
-title: "iOS APNs/APS Environments"
+title: "iOS APNs and APS Environments"
 description: "I wanted to get to a situation where we can point the build in App Center to sandbox, and the build in App Store & TestFlight to production. Sadly, after much investigation and trying things out, I came out with the following conclusion..."
 date: "2021-06-17T15:11:12+01:00"
 author: "Jon"
