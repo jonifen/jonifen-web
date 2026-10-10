@@ -12,8 +12,8 @@ title: "Uses"
 
 ## Screens
 
-- Samsung 27" WQHD 144Hz 1000R curve
 - Benq EX2780Q WQHD 144Hz IPS
+- Samsung 27" WQHD 144Hz 1000R curve
 - Panasonic 39" 1080p TV (for the driving sims)
 
 ## Peripherals
@@ -55,11 +55,23 @@ title: "Uses"
 - iPhone 17 Pro Max 512GB
 - Apple Watch Series 7
 - iPad Air 3rd Generation (2019) 32GB
-- AirPods 2nd Generation 
+- AirPods 2nd Generation
+- iPhone SE 2020 Product Red
 
-## Home "Server"
+## Homelab
+
+### Primary "server"
 
 - Lenovo Thinkcentre M710q Tiny
 - Intel i5-6400T
 - 32GB Corsair Vengeance DDR4 (2x 16GB)
-- Proxmox 9.2.6
+- Proxmox 9
+
+### DNS failover
+
+- Dell Wyse 3040
+- Intel Atom
+- 2GB RAM
+- 8GB eMMC
+- External SSD (for LXC containers)
+
